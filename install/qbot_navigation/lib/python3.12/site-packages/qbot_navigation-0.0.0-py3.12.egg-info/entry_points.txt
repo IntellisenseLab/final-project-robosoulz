@@ -1,5 +1,0 @@
-[console_scripts]
-mapper_node = qbot_navigation.mapper_node:main
-navigation_server = qbot_navigation.navigation_server:main
-odom_node = qbot_navigation.odom_node:main
-qbot_controller = qbot_navigation.qbot_controller:main
