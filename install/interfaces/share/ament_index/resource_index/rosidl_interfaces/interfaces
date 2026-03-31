@@ -1,6 +1,0 @@
-action/Navigation.action
-action/Navigation.idl
-msg/Position.idl
-msg/Position.msg
-srv/GetLastPositions.idl
-srv/GetLastPositions.srv

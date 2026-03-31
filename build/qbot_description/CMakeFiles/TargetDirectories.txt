@@ -1,9 +1,0 @@
-/home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_description/CMakeFiles/uninstall.dir
-/home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_description/CMakeFiles/qbot_description_uninstall.dir
-/home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_description/CMakeFiles/test.dir
-/home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_description/CMakeFiles/edit_cache.dir
-/home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_description/CMakeFiles/rebuild_cache.dir
-/home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_description/CMakeFiles/list_install_components.dir
-/home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_description/CMakeFiles/install.dir
-/home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_description/CMakeFiles/install/local.dir
-/home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_description/CMakeFiles/install/strip.dir
