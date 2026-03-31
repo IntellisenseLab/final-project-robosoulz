@@ -60,14 +60,19 @@ The system is divided into the following modules:
 ---
 
 ## 📁 Repository Structure
+
+```text
 final-project-robosoulz/
 ├── docs/
 │ ├── images/
 │ ├── logs/
 │ │ └── week08/
 │ │     └── local_setup_verification.txt
-│ ├── setup_notes/
-│ │     └── week08_setup.md
+│   ├── setup_notes/
+│   │   ├── week08/
+│   │       ├── week08_setup.md
+│   │       └── week08_node_summary.md
+│   │   ├── week09/
 │ ├── weekly_reports/
 │ │     └── week08_report.md
 │
@@ -77,6 +82,7 @@ final-project-robosoulz/
 │ ├── interfaces/          # Custom ROS interfaces (if used)
 │
 ├── README.md
+```
 
 ---
 
@@ -95,77 +101,91 @@ final-project-robosoulz/
 
 ### 1. Clone the Repository
 
-git clone `<your-repo-link>`{=html} cd final-project-robosoulz
+```bash
+git clone <your-repo-link>
+cd final-project-robosoulz
+```
 
 ### 2. Build
 
+```bash
 colcon build
+```
 
-### 4. Source
+### 3. Source
 
+```bash
 source install/setup.bash
+```
 
-### 5. Run
+### 4. Run
 
+```bash
 ros2 run qbot_navigation odom_node
+```
 
-------------------------------------------------------------------------
+---
 
 ## 📅 Project Timeline
-Week	Task
-Week 08	Setup and ROS environment verification
-Week 09	Perception (Kinect + mapping)
-Week 10	Path planning
-Week 11	Motion control
-Week 12	System integration
-Week 13	Testing and documentation
 
-------------------------------------------------------------------------
+| Week | Task |
+|------|------|
+| Week 08 | Setup and ROS environment verification |
+| Week 09 | Perception (Kinect + mapping) |
+| Week 10 | Path planning |
+| Week 11 | Motion control |
+| Week 12 | System integration |
+| Week 13 | Testing and documentation |
+
+---
 
 ## 🧪 Week 08 Progress
 
-✅ Completed
-Repository initialized and structured
-ROS 2 environment verified (Jazzy)
-Workspace successfully built using colcon build
-Integrated relevant packages from previous labs
-Renamed navigation package to qbot_navigation
-Verified package detection in ROS
-Verified executables:
-    mapper_node
-    navigation_server
-    odom_node
-    qbot_controller
-Successfully launched nodes locally
-Verified node registration (/map_node)
+### ✅ Completed
+- Repository initialized and structured  
+- ROS 2 environment verified (Jazzy)  
+- Workspace successfully built using `colcon build`  
+- Integrated packages from previous labs  
+- Renamed package to `qbot_navigation`  
+- Verified package detection in ROS  
+- Verified executables:
+  - mapper_node
+  - navigation_server
+  - odom_node
+  - qbot_controller
+- Successfully launched ROS nodes locally  
+- Verified node registration (`/map_node`)
 
-❌ Pending
-Raspberry Pi setup
-QBot hardware connection
-Kinect sensor integration
-Hardware communication testing
+### ❌ Pending
+- Raspberry Pi setup  
+- QBot hardware connection  
+- Kinect sensor integration  
+- Hardware communication testing  
 
-------------------------------------------------------------------------
+---
 
 ## 📚 References
 
-Kobuki QBot Documentation
-https://kobuki.readthedocs.io/en/devel/index.html
-Kobuki Python Interface
-https://github.com/IntellisenseLab/kobuki-python
-ROS 2 Navigation Stack (Nav2)
-https://docs.nav2.org/
-Thrun, S., Burgard, W., & Fox, D. (2005).
-Probabilistic Robotics, MIT Press
-------------------------------------------------------------------------
+- Kobuki QBot Documentation  
+  https://kobuki.readthedocs.io/en/devel/index.html  
+- Kobuki Python Interface  
+  https://github.com/IntellisenseLab/kobuki-python  
+
+- ROS 2 Navigation Stack (Nav2)  
+  https://docs.nav2.org/  
+
+- Thrun, S., Burgard, W., & Fox, D. (2005)  
+  *Probabilistic Robotics*, MIT Press  
+
+---
 
 ## 📌 Notes
 This project builds upon ROS-based lab implementations.
 Current progress includes software setup and validation on a local machine.
 Hardware integration will be performed in subsequent phases.
 
-------------------------------------------------------------------------
+---
 
 ## Project Status
 
-In Progress --- Week 08 Completed
+🟡 **In Progress — Week 08 Completed (Software Setup Stage)**
