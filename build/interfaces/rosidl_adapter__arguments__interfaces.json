@@ -1,0 +1,8 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/birajith/Documents/Robotics/final-project-robosoulz/src/interfaces:msg/Position.msg",
+    "/home/birajith/Documents/Robotics/final-project-robosoulz/src/interfaces:srv/GetLastPositions.srv",
+    "/home/birajith/Documents/Robotics/final-project-robosoulz/src/interfaces:action/Navigation.action"
+  ]
+}

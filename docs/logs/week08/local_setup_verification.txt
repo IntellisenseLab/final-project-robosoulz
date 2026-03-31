@@ -1,0 +1,145 @@
+Week 08 Local Setup Verification
+Project: Autonomous Indoor Delivery Robot Using ROS-Based Navigation on Kobuki QBot
+Team: RoboSoulz
+
+Date:
+Developer Machine:
+ROS Distribution: Jazzy
+
+1. ROS 2 Environment Verification
+Command:
+ros2 --help
+
+Result:
+The ROS 2 command-line tool executed successfully and displayed the available ROS 2 commands.
+
+Command:
+printenv | grep ROS
+
+Result:
+ROS_VERSION=2
+ROS_PYTHON_VERSION=3
+ROS_AUTOMATIC_DISCOVERY_RANGE=SUBNET
+ROS_DISTRO=jazzy
+
+2. Local Device and Serial Check
+Command:
+lsusb
+
+Result:
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 003 Device 002: ID 04d9:a165 Holtek Semiconductor, Inc. USB Gaming Mouse
+Bus 003 Device 003: ID 0408:a061 Quanta Computer, Inc. HD User Facing
+Bus 003 Device 004: ID 8087:0026 Intel Corp. AX201 Bluetooth
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+
+Command:
+dmesg | tail
+
+Result:
+dmesg: read kernel buffer failed: Operation not permitted
+
+Command:
+ls /dev/tty*
+
+Result:
+No QBot-related serial interface such as /dev/ttyUSB0 or /dev/ttyACM0 was detected during local verification.
+
+Interpretation:
+No Kobuki QBot hardware was connected to the laptop during this setup verification step.
+
+3. Workspace Build Verification
+Command:
+colcon build
+
+Result:
+Starting >>> interfaces
+Starting >>> qbot_description
+Finished <<< qbot_description
+Finished <<< interfaces
+Starting >>> qbot_navigation
+Finished <<< qbot_navigation
+
+Summary:
+3 packages finished successfully.
+
+Verified packages:
+- interfaces
+- qbot_description
+- qbot_navigation
+
+4. Package Detection Verification
+Command:
+source install/setup.bash
+ros2 pkg list | grep qbot_navigation
+
+Result:
+qbot_navigation
+
+Command:
+ros2 pkg list | grep qbot_description
+
+Result:
+qbot_description
+
+Interpretation:
+Both project packages were successfully built and recognized by ROS 2.
+
+5. Executable Verification
+Command:
+ros2 pkg executables qbot_navigation
+
+Result:
+qbot_navigation mapper_node
+qbot_navigation navigation_server
+qbot_navigation odom_node
+qbot_navigation qbot_controller
+
+Interpretation:
+The qbot_navigation package exports all expected executables.
+
+6. Node Execution Verification
+Command:
+ros2 run qbot_navigation odom_node
+
+Result:
+[INFO] [........] [odometry_node]: Odometry Node Initialized
+[INFO] [........] [odometry_node]: Waiting for action server 'navigate'...
+
+Interpretation:
+The odom_node executable launched successfully. It remained active and waited for the required navigation action server, indicating that the node is functioning correctly within the current software environment.
+
+7. Mapper Node Verification
+Command:
+ros2 run qbot_navigation mapper_node
+
+Additional command in another terminal:
+ros2 node list
+
+Result:
+The mapper node launched successfully and appeared in the ROS node list as:
+/map_node
+
+Interpretation:
+The mapper_node executable starts correctly and registers as a ROS 2 node.
+
+8. Week 08 Local Verification Summary
+Completed:
+- Verified ROS 2 installation on local machine
+- Verified ROS 2 distribution as Jazzy
+- Built the project workspace successfully
+- Verified ROS 2 recognition of qbot_navigation and qbot_description
+- Verified exported executables in qbot_navigation
+- Successfully launched odom_node
+- Successfully launched mapper_node and confirmed /map_node in node list
+
+Not Completed Yet:
+- Raspberry Pi setup
+- QBot hardware connection
+- Kinect sensor connection
+- Hardware-level communication testing
+
+Conclusion:
+The laptop-based software setup for Week 08 has been completed successfully. The project repository, ROS 2 workspace, and core navigation package are functional on the local development machine. Hardware integration remains to be completed separately in the lab environment.

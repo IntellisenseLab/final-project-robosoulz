@@ -1,0 +1,330 @@
+[0.008s] Invoking command in '/home/birajith/Documents/Robotics/final-project-robosoulz/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/birajith/Documents/Robotics/final-project-robosoulz/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces
+[0.086s] -- The C compiler identification is GNU 13.3.0
+[0.147s] -- The CXX compiler identification is GNU 13.3.0
+[0.159s] -- Detecting C compiler ABI info
+[0.219s] -- Detecting C compiler ABI info - done
+[0.226s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.226s] -- Detecting C compile features
+[0.226s] -- Detecting C compile features - done
+[0.232s] -- Detecting CXX compiler ABI info
+[0.292s] -- Detecting CXX compiler ABI info - done
+[0.298s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.298s] -- Detecting CXX compile features
+[0.299s] -- Detecting CXX compile features - done
+[0.307s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.411s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.499s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.508s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.560s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.604s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.609s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.086s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.352s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.694s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.697s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.779s] -- Found PythonExtra: /usr/bin/python3  
+[2.040s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.074s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.080s] -- Configuring done (2.1s)
+[2.107s] -- Generating done (0.0s)
+[2.116s] -- Build files have been written to: /home/birajith/Documents/Robotics/final-project-robosoulz/build/interfaces
+[2.124s] Invoked command in '/home/birajith/Documents/Robotics/final-project-robosoulz/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/birajith/Documents/Robotics/final-project-robosoulz/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces
+[2.124s] Invoking command in '/home/birajith/Documents/Robotics/final-project-robosoulz/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/birajith/Documents/Robotics/final-project-robosoulz/build/interfaces -- -j16 -l16
+[2.154s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.159s] [  1%] Built target ament_cmake_python_copy_interfaces
+[2.303s] running egg_info
+[2.304s] creating interfaces.egg-info
+[2.311s] [  1%] Built target interfaces__rosidl_generator_type_description
+[2.320s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.328s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.328s] writing interfaces.egg-info/PKG-INFO
+[2.328s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[2.328s] writing top-level names to interfaces.egg-info/top_level.txt
+[2.328s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[2.375s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[2.375s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[2.393s] [  5%] Built target ament_cmake_python_build_interfaces_egg
+[2.673s] [  5%] Built target interfaces__cpp
+[2.727s] [ 18%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/navigation__description.c.o[0m
+[2.727s] [ 18%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/get_last_positions__functions.c.o[0m
+[2.727s] [ 18%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/navigation__functions.c.o[0m
+[2.727s] [ 18%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/get_last_positions__type_support.c.o[0m
+[2.727s] [ 18%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/position__type_support.c.o[0m
+[2.727s] [ 18%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/position__description.c.o[0m
+[2.727s] [ 18%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/action/detail/navigation__type_support.c.o[0m
+[2.728s] [ 20%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/position__functions.c.o[0m
+[2.728s] [ 22%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/get_last_positions__description.c.o[0m
+[2.832s] [ 24%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[2.863s] [ 24%] Built target interfaces__rosidl_generator_c
+[2.869s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.869s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.869s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.869s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.869s] [ 33%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.869s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.102s] [ 40%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/action/navigation__type_support.cpp.o[0m
+[3.102s] [ 40%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/get_last_positions__type_support.cpp.o[0m
+[3.102s] [ 40%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/position__type_support.cpp.o[0m
+[3.132s] [ 44%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/position__type_support.cpp.o[0m
+[3.132s] [ 44%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/get_last_positions__type_support.cpp.o[0m
+[3.134s] [ 46%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/action/navigation__type_support.cpp.o[0m
+[3.150s] [ 48%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[3.159s] [ 50%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/position__type_support.cpp.o[0m
+[3.159s] [ 51%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/get_last_positions__type_support.cpp.o[0m
+[3.160s] [ 53%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/action/detail/navigation__type_support.cpp.o[0m
+[3.180s] [ 53%] Built target interfaces__rosidl_typesupport_c
+[3.206s] [ 57%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/get_last_positions__type_support.c.o[0m
+[3.206s] [ 57%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/action/detail/navigation__type_support.c.o[0m
+[3.207s] [ 59%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/position__type_support.c.o[0m
+[3.264s] [ 61%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[3.290s] [ 61%] Built target interfaces__rosidl_typesupport_introspection_c
+[3.296s] [ 66%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/get_last_positions__type_support.cpp.o[0m
+[3.296s] [ 66%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/position__type_support.cpp.o[0m
+[3.296s] [ 66%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/action/detail/dds_fastrtps/navigation__type_support.cpp.o[0m
+[3.363s] [ 68%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/action/detail/navigation__type_support_c.cpp.o[0m
+[3.364s] [ 72%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/get_last_positions__type_support_c.cpp.o[0m
+[3.364s] [ 72%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/position__type_support_c.cpp.o[0m
+[3.727s] [ 74%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[3.776s] [ 75%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.779s] [ 75%] Built target interfaces__rosidl_typesupport_cpp
+[3.800s] [ 77%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.828s] [ 77%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[3.836s] [ 77%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[3.947s] [ 79%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.998s] [ 79%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[4.009s] [ 79%] Built target interfaces
+[4.022s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.583s] [ 81%] Built target interfaces__py
+[4.595s] [ 83%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_position_s.c.o[0m
+[4.595s] [ 85%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_get_last_positions_s.c.o[0m
+[4.595s] [ 87%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/action/_navigation_s.c.o[0m
+[4.737s] [ 88%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_py.so[0m
+[4.766s] [ 88%] Built target interfaces__rosidl_generator_py
+[4.777s] [ 90%] [32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.778s] [ 92%] [32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.778s] [ 94%] [32mBuilding C object CMakeFiles/interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.865s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.so[0m
+[4.865s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[4.865s] [100%] [32m[1mLinking C shared module rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[4.885s] [100%] Built target interfaces_s__rosidl_typesupport_c
+[4.885s] [100%] Built target interfaces_s__rosidl_typesupport_fastrtps_c
+[4.885s] [100%] Built target interfaces_s__rosidl_typesupport_introspection_c
+[4.891s] Invoked command in '/home/birajith/Documents/Robotics/final-project-robosoulz/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/birajith/Documents/Robotics/final-project-robosoulz/build/interfaces -- -j16 -l16
+[4.892s] Invoking command in '/home/birajith/Documents/Robotics/final-project-robosoulz/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/birajith/Documents/Robotics/final-project-robosoulz/build/interfaces
+[4.897s] -- Install configuration: ""
+[4.897s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[4.897s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/msg/Position.json
+[4.897s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/srv/GetLastPositions.json
+[4.897s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/action/Navigation.json
+[4.897s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces
+[4.897s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg
+[4.897s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail
+[4.898s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail/position__description.c
+[4.898s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail/position__type_support.h
+[4.898s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail/position__struct.h
+[4.898s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail/position__type_support.c
+[4.898s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail/position__functions.c
+[4.898s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail/position__functions.h
+[4.898s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.898s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/position.h
+[4.898s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action
+[4.898s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail
+[4.898s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail/navigation__description.c
+[4.898s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail/navigation__type_support.c
+[4.898s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail/navigation__functions.h
+[4.898s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail/navigation__functions.c
+[4.898s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail/navigation__struct.h
+[4.898s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail/navigation__type_support.h
+[4.898s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/navigation.h
+[4.899s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv
+[4.899s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/get_last_positions.h
+[4.899s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail
+[4.899s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__functions.h
+[4.899s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__functions.c
+[4.899s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__description.c
+[4.899s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__type_support.h
+[4.899s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__struct.h
+[4.899s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__type_support.c
+[4.899s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/environment/library_path.sh
+[4.899s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/environment/library_path.dsv
+[4.899s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[4.899s] -- Set non-toolchain portion of runtime path of "/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[4.899s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces
+[4.899s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg
+[4.900s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.900s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail
+[4.900s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+[4.900s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action
+[4.900s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail
+[4.900s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail/navigation__rosidl_typesupport_fastrtps_c.h
+[4.900s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv
+[4.900s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail
+[4.900s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__rosidl_typesupport_fastrtps_c.h
+[4.900s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[4.900s] -- Set non-toolchain portion of runtime path of "/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.900s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces
+[4.900s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg
+[4.900s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail
+[4.900s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail/position__rosidl_typesupport_introspection_c.h
+[4.900s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail/position__type_support.c
+[4.900s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.900s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action
+[4.900s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail
+[4.900s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail/navigation__type_support.c
+[4.901s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail/navigation__rosidl_typesupport_introspection_c.h
+[4.901s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv
+[4.901s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail
+[4.901s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__rosidl_typesupport_introspection_c.h
+[4.901s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__type_support.c
+[4.901s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[4.901s] -- Set non-toolchain portion of runtime path of "/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.901s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[4.901s] -- Set non-toolchain portion of runtime path of "/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[4.901s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces
+[4.901s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg
+[4.901s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail
+[4.901s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail/position__struct.hpp
+[4.901s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail/position__type_support.hpp
+[4.901s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail/position__builder.hpp
+[4.901s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail/position__traits.hpp
+[4.901s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/position.hpp
+[4.901s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.902s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action
+[4.902s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail
+[4.902s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail/navigation__builder.hpp
+[4.902s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail/navigation__struct.hpp
+[4.902s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail/navigation__traits.hpp
+[4.902s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail/navigation__type_support.hpp
+[4.902s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/navigation.hpp
+[4.902s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv
+[4.902s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail
+[4.902s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__builder.hpp
+[4.902s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__type_support.hpp
+[4.902s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__traits.hpp
+[4.902s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__struct.hpp
+[4.902s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/get_last_positions.hpp
+[4.902s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces
+[4.902s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg
+[4.902s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail
+[4.902s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
+[4.902s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps
+[4.902s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.903s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action
+[4.903s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail
+[4.903s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail/navigation__rosidl_typesupport_fastrtps_cpp.hpp
+[4.903s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail/dds_fastrtps
+[4.903s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv
+[4.903s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail
+[4.903s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__rosidl_typesupport_fastrtps_cpp.hpp
+[4.903s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps
+[4.903s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.903s] -- Set non-toolchain portion of runtime path of "/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.903s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces
+[4.903s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg
+[4.903s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail
+[4.903s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp
+[4.903s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/msg/detail/position__type_support.cpp
+[4.903s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action
+[4.903s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail
+[4.903s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail/navigation__type_support.cpp
+[4.903s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/action/detail/navigation__rosidl_typesupport_introspection_cpp.hpp
+[4.903s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv
+[4.903s] -- Up-to-date: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail
+[4.903s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__rosidl_typesupport_introspection_cpp.hpp
+[4.904s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/include/interfaces/interfaces/srv/detail/get_last_positions__type_support.cpp
+[4.904s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[4.904s] -- Set non-toolchain portion of runtime path of "/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.904s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[4.904s] -- Set non-toolchain portion of runtime path of "/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[4.904s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/environment/pythonpath.sh
+[4.904s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[4.904s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info
+[4.904s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[4.904s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[4.904s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[4.904s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[4.904s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces
+[4.905s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[4.905s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/__init__.py
+[4.905s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so
+[4.905s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/msg
+[4.905s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/msg/__init__.py
+[4.905s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_position.py
+[4.905s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_position_s.c
+[4.905s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/action
+[4.905s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/action/__init__.py
+[4.905s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/action/_navigation.py
+[4.905s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/action/_navigation_s.c
+[4.905s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so
+[4.905s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so
+[4.905s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.905s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/srv
+[4.905s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/srv/__init__.py
+[4.906s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_get_last_positions.py
+[4.906s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_get_last_positions_s.c
+[4.906s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.941s] Listing '/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces'...
+[4.941s] Compiling '/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/__init__.py'...
+[4.941s] Listing '/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/action'...
+[4.941s] Compiling '/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/action/__init__.py'...
+[4.941s] Compiling '/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/action/_navigation.py'...
+[4.941s] Listing '/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/msg'...
+[4.941s] Compiling '/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/msg/__init__.py'...
+[4.941s] Compiling '/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/msg/_position.py'...
+[4.941s] Listing '/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/srv'...
+[4.941s] Compiling '/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/srv/__init__.py'...
+[4.941s] Compiling '/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/srv/_get_last_positions.py'...
+[4.945s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so
+[4.945s] -- Set non-toolchain portion of runtime path of "/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[4.945s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so
+[4.945s] -- Set non-toolchain portion of runtime path of "/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[4.945s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so
+[4.945s] -- Set non-toolchain portion of runtime path of "/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/python3.12/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.so" to ""
+[4.945s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[4.945s] -- Set non-toolchain portion of runtime path of "/home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""
+[4.945s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/msg/Position.idl
+[4.945s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/srv/GetLastPositions.idl
+[4.946s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/action/Navigation.idl
+[4.946s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/msg/Position.msg
+[4.946s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/srv/GetLastPositions.srv
+[4.946s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/action/Navigation.action
+[4.946s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[4.946s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[4.946s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[4.946s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[4.946s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/environment/path.sh
+[4.946s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/environment/path.dsv
+[4.946s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/local_setup.bash
+[4.946s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/local_setup.sh
+[4.946s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/local_setup.zsh
+[4.946s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/local_setup.dsv
+[4.946s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/package.dsv
+[4.946s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[4.947s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[4.947s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.947s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.947s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.947s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.947s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.947s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[4.947s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.947s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[4.947s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.947s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.947s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.947s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.947s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[4.947s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.948s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[4.948s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.948s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[4.948s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.948s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.948s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.948s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.948s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.948s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.948s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[4.948s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[4.948s] -- Installing: /home/birajith/Documents/Robotics/final-project-robosoulz/install/interfaces/share/interfaces/package.xml
+[4.950s] Invoked command in '/home/birajith/Documents/Robotics/final-project-robosoulz/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/birajith/Documents/Robotics/final-project-robosoulz/build/interfaces

@@ -1,0 +1,15 @@
+{
+  "package_name": "interfaces",
+  "output_dir": "/home/birajith/Documents/Robotics/final-project-robosoulz/build/interfaces/rosidl_generator_type_description/interfaces",
+  "idl_tuples": [
+    "/home/birajith/Documents/Robotics/final-project-robosoulz/build/interfaces/rosidl_adapter/interfaces:msg/Position.idl",
+    "/home/birajith/Documents/Robotics/final-project-robosoulz/build/interfaces/rosidl_adapter/interfaces:srv/GetLastPositions.idl",
+    "/home/birajith/Documents/Robotics/final-project-robosoulz/build/interfaces/rosidl_adapter/interfaces:action/Navigation.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs"
+  ]
+}

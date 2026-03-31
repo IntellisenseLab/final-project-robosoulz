@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>qbot_navigation</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description: Simulated odometry and mapping package for CS3340 Lab 02. Includes odom publisher and map node with service to query position history.</description>
+  <maintainer email="birajithk@gmail.com">birajith</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Build tool -->
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- Runtime dependencies -->
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>interfaces</exec_depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <exec_depend>slam_toolbox</exec_depend>
+  <exec_depend>qbot_description</exec_depend>
+
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
+
+  <!-- <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend> -->
+  
+  <member_of_group>rosidl_interface_packages</member_of_group>
+  
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

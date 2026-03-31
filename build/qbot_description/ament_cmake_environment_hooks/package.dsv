@@ -1,0 +1,4 @@
+source;share/qbot_description/local_setup.bash
+source;share/qbot_description/local_setup.dsv
+source;share/qbot_description/local_setup.sh
+source;share/qbot_description/local_setup.zsh

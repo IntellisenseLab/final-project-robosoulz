@@ -1,47 +1,171 @@
 # Autonomous Indoor Delivery Robot Using ROS-Based Navigation on Kobuki QBot
 
-## Course
-**CS3340 – Robotics and Automation**  
-Semester 4 — Department of Computer Science and Engineering
+## CS3340: Robotics and Automation Final Project  
+**Department of Computer Science and Engineering**
 
-## Team
-**RoboSoulz**
+---
 
-## Team Members
-- **Birajith K.** – 230091H
-- **Rafi M.A.A** – 230505J
-- **Saran S.** – 230582N
+## 👥 Team: RoboSoulz
 
-## Project Overview
-This project focuses on the design and implementation of an **Autonomous Indoor Delivery Robot** using the **Kobuki QBot**, **Raspberry Pi**, **Kinect RGB-D sensor**, and **ROS 2**.
+| Name | Index Number |
+|------|-------------|
+| Birajith K. | 230091H |
+| Rafi M.A.A | 230505J |
+| Saran S. | 230582N |
 
-The robot is expected to navigate autonomously within an indoor environment and perform delivery tasks between predefined locations. The project integrates the three main robotics components:
+---
 
-- **Perception** – obtaining environmental information using the Kinect RGB-D sensor
-- **Planning** – generating paths to target delivery locations
-- **Control** – converting planned paths into robot motion commands
+## 📌 Project Overview
 
-## Week 08 Goal
-The goal of **Week 08** is to complete the initial system setup. This includes:
+This project focuses on the design and implementation of an **Autonomous Indoor Delivery Robot** using the **Kobuki QBot platform** integrated with a **Kinect RGB-D sensor**.
 
-- Setting up the Raspberry Pi
-- Installing and configuring ROS 2
-- Creating the ROS workspace
-- Establishing communication between the Raspberry Pi and the QBot
-- Organizing the GitHub repository
-- Preparing setup documentation and the first weekly progress report
+The robot is designed to navigate autonomously within an indoor environment and deliver items between predefined locations. The system integrates core robotics components—**perception, planning, and control**—within a **ROS 2-based architecture**.
 
-## Repository Structure
-```text
+---
+
+## 🎯 Objectives
+
+- Generate an **occupancy grid map** using depth sensor data  
+- Implement **path planning algorithms** (A*, Dijkstra)  
+- Enable **autonomous navigation** between predefined delivery points  
+- Integrate perception, planning, and control modules  
+- Demonstrate a complete indoor delivery task  
+
+---
+
+## 🏗️ System Architecture
+
+The system is divided into the following modules:
+
+### 🔹 Perception Module
+- Acquire RGB and depth data from Kinect sensor  
+- Generate occupancy grid map  
+- Detect obstacles in the environment  
+
+### 🔹 Planning Module
+- Select target delivery locations  
+- Generate collision-free paths using planning algorithms  
+- Handle path updates if required  
+
+### 🔹 Control Module
+- Convert planned paths into velocity commands  
+- Control robot movement using ROS `cmd_vel`  
+- Maintain stable trajectory tracking  
+
+### 🔹 ROS Integration
+- Implement each module as ROS 2 nodes  
+- Communicate via ROS topics  
+- Visualize system using RViz  
+
+---
+
+## 📁 Repository Structure
 final-project-robosoulz/
-├── README.md
-├── .gitignore
 ├── docs/
-│   ├── images/
-│   ├── setup_notes/
-│   │   └── week08_setup.md
-│   └── weekly_reports/
-│       └── week08_report.md
-├── references/
-├── scripts/
-└── src/
+│ ├── images/
+│ ├── logs/
+│ │ └── week08/
+│ │     └── local_setup_verification.txt
+│ ├── setup_notes/
+│ │     └── week08_setup.md
+│ ├── weekly_reports/
+│ │     └── week08_report.md
+│
+├── src/
+│ ├── qbot_navigation/     # Main project package (perception, planning, control)
+│ ├── qbot_description/    # Robot model and visualization files
+│ ├── interfaces/          # Custom ROS interfaces (if used)
+│
+├── README.md
+
+---
+
+## ⚙️ Technologies Used
+
+- **ROS 2 (Jazzy)**
+- **Python (ROS Nodes)**
+- **Kobuki QBot**
+- **Kinect RGB-D Sensor**
+- **SLAM / Mapping Tools**
+- **RViz for visualization**
+
+---
+
+## 🚀 Setup Instructions
+
+### 1. Clone the Repository
+
+git clone `<your-repo-link>`{=html} cd final-project-robosoulz
+
+### 2. Build
+
+colcon build
+
+### 4. Source
+
+source install/setup.bash
+
+### 5. Run
+
+ros2 run qbot_navigation odom_node
+
+------------------------------------------------------------------------
+
+## 📅 Project Timeline
+Week	Task
+Week 08	Setup and ROS environment verification
+Week 09	Perception (Kinect + mapping)
+Week 10	Path planning
+Week 11	Motion control
+Week 12	System integration
+Week 13	Testing and documentation
+
+------------------------------------------------------------------------
+
+## 🧪 Week 08 Progress
+
+✅ Completed
+Repository initialized and structured
+ROS 2 environment verified (Jazzy)
+Workspace successfully built using colcon build
+Integrated relevant packages from previous labs
+Renamed navigation package to qbot_navigation
+Verified package detection in ROS
+Verified executables:
+    mapper_node
+    navigation_server
+    odom_node
+    qbot_controller
+Successfully launched nodes locally
+Verified node registration (/map_node)
+
+❌ Pending
+Raspberry Pi setup
+QBot hardware connection
+Kinect sensor integration
+Hardware communication testing
+
+------------------------------------------------------------------------
+
+## 📚 References
+
+Kobuki QBot Documentation
+https://kobuki.readthedocs.io/en/devel/index.html
+Kobuki Python Interface
+https://github.com/IntellisenseLab/kobuki-python
+ROS 2 Navigation Stack (Nav2)
+https://docs.nav2.org/
+Thrun, S., Burgard, W., & Fox, D. (2005).
+Probabilistic Robotics, MIT Press
+------------------------------------------------------------------------
+
+## 📌 Notes
+This project builds upon ROS-based lab implementations.
+Current progress includes software setup and validation on a local machine.
+Hardware integration will be performed in subsequent phases.
+
+------------------------------------------------------------------------
+
+## Project Status
+
+In Progress --- Week 08 Completed

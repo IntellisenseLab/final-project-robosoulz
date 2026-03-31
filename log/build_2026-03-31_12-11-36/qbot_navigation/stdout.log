@@ -1,0 +1,56 @@
+running egg_info
+creating ../../build/qbot_navigation/qbot_navigation.egg-info
+writing ../../build/qbot_navigation/qbot_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/qbot_navigation/qbot_navigation.egg-info/dependency_links.txt
+writing entry points to ../../build/qbot_navigation/qbot_navigation.egg-info/entry_points.txt
+writing requirements to ../../build/qbot_navigation/qbot_navigation.egg-info/requires.txt
+writing top-level names to ../../build/qbot_navigation/qbot_navigation.egg-info/top_level.txt
+writing manifest file '../../build/qbot_navigation/qbot_navigation.egg-info/SOURCES.txt'
+reading manifest file '../../build/qbot_navigation/qbot_navigation.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/qbot_navigation/qbot_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_navigation/build
+creating /home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_navigation/build/lib
+creating /home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_navigation/build/lib/qbot_navigation
+copying qbot_navigation/__init__.py -> /home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_navigation/build/lib/qbot_navigation
+copying qbot_navigation/qbot_controller.py -> /home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_navigation/build/lib/qbot_navigation
+copying qbot_navigation/navigation_server.py -> /home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_navigation/build/lib/qbot_navigation
+copying qbot_navigation/mapper_node.py -> /home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_navigation/build/lib/qbot_navigation
+copying qbot_navigation/odom_node.py -> /home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_navigation/build/lib/qbot_navigation
+running install
+running install_lib
+creating /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/lib/python3.12/site-packages/qbot_navigation
+copying /home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_navigation/build/lib/qbot_navigation/__init__.py -> /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/lib/python3.12/site-packages/qbot_navigation
+copying /home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_navigation/build/lib/qbot_navigation/qbot_controller.py -> /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/lib/python3.12/site-packages/qbot_navigation
+copying /home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_navigation/build/lib/qbot_navigation/navigation_server.py -> /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/lib/python3.12/site-packages/qbot_navigation
+copying /home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_navigation/build/lib/qbot_navigation/mapper_node.py -> /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/lib/python3.12/site-packages/qbot_navigation
+copying /home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_navigation/build/lib/qbot_navigation/odom_node.py -> /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/lib/python3.12/site-packages/qbot_navigation
+byte-compiling /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/lib/python3.12/site-packages/qbot_navigation/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/lib/python3.12/site-packages/qbot_navigation/qbot_controller.py to qbot_controller.cpython-312.pyc
+byte-compiling /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/lib/python3.12/site-packages/qbot_navigation/navigation_server.py to navigation_server.cpython-312.pyc
+byte-compiling /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/lib/python3.12/site-packages/qbot_navigation/mapper_node.py to mapper_node.cpython-312.pyc
+byte-compiling /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/lib/python3.12/site-packages/qbot_navigation/odom_node.py to odom_node.cpython-312.pyc
+running install_data
+creating /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/share/ament_index
+creating /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/share/ament_index/resource_index
+creating /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/share/ament_index/resource_index/packages
+copying resource/qbot_navigation -> /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/share/ament_index/resource_index/packages
+copying package.xml -> /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/share/qbot_navigation
+creating /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/share/qbot_navigation/launch
+copying launch/lab_06_gznew_launch.py -> /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/share/qbot_navigation/launch
+copying launch/lab_06_gazebo_launch.py -> /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/share/qbot_navigation/launch
+copying launch/lab_06_rviz_launch.py -> /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/share/qbot_navigation/launch
+copying launch/lab_06_launch.py -> /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/share/qbot_navigation/launch
+copying launch/lab_06_simulation_launch.py -> /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/share/qbot_navigation/launch
+creating /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/share/qbot_navigation/config
+copying config/slam_toolbox_params.yaml -> /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/share/qbot_navigation/config
+running install_egg_info
+Copying ../../build/qbot_navigation/qbot_navigation.egg-info to /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/lib/python3.12/site-packages/qbot_navigation-0.0.0-py3.12.egg-info
+running install_scripts
+Installing mapper_node script to /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/lib/qbot_navigation
+Installing navigation_server script to /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/lib/qbot_navigation
+Installing odom_node script to /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/lib/qbot_navigation
+Installing qbot_controller script to /home/birajith/Documents/Robotics/final-project-robosoulz/install/qbot_navigation/lib/qbot_navigation
+writing list of installed files to '/home/birajith/Documents/Robotics/final-project-robosoulz/build/qbot_navigation/install.log'
