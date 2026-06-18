@@ -1,0 +1,248 @@
+[0.049s] Invoking command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/aws_robomaker_racetrack_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/src/ThirdParty/aws-robomaker-racetrack-world -DCMAKE_INSTALL_PREFIX=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world
+[0.382s] -- The C compiler identification is GNU 13.3.0
+[0.690s] -- The CXX compiler identification is GNU 13.3.0
+[0.811s] -- Detecting C compiler ABI info
+[1.411s] -- Detecting C compiler ABI info - done
+[1.477s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.478s] -- Detecting C compile features
+[1.479s] -- Detecting C compile features - done
+[1.523s] -- Detecting CXX compiler ABI info
+[2.208s] -- Detecting CXX compiler ABI info - done
+[2.253s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.253s] -- Detecting CXX compile features
+[2.258s] -- Detecting CXX compile features - done
+[2.283s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.186s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.822s] -- Found ros_gz_sim: 1.0.22 (/opt/ros/jazzy/share/ros_gz_sim/cmake)
+[4.084s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.171s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.267s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.379s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.828s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.852s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.484s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.557s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.699s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.386s] -- Configuring done (7.3s)
+[7.418s] -- Generating done (0.0s)
+[7.439s] -- Build files have been written to: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/aws_robomaker_racetrack_world
+[7.490s] Invoked command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/aws_robomaker_racetrack_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/src/ThirdParty/aws-robomaker-racetrack-world -DCMAKE_INSTALL_PREFIX=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world
+[7.496s] Invoking command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/aws_robomaker_racetrack_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/aws_robomaker_racetrack_world -- -j4 -l4
+[7.742s] Invoked command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/aws_robomaker_racetrack_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/aws_robomaker_racetrack_world -- -j4 -l4
+[7.748s] Invoking command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/aws_robomaker_racetrack_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/aws_robomaker_racetrack_world
+[7.794s] -- Install configuration: ""
+[7.795s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/launch
+[7.795s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/launch/view_racetrack.launch.py
+[7.797s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/launch/racetrack.launch.py
+[7.802s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models
+[7.803s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02
+[7.803s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/model.sdf
+[7.804s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/materials
+[7.805s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/materials/textures
+[7.810s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/materials/textures/aws_Fence_02.png
+[7.848s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/meshes
+[7.869s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/meshes/aws_Fence_02_collision.DAE
+[7.884s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/meshes/aws_Fence_02_visual.DAE
+[7.890s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_02/model.config
+[7.892s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01
+[7.893s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/model.sdf
+[7.893s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/materials
+[7.893s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/materials/textures
+[7.894s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/materials/textures/aws_FenceMesh_01.png
+[7.902s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/meshes
+[7.903s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/meshes/aws_FenceMesh_01_visual.DAE
+[7.906s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/meshes/aws_FenceMesh_01_collision.DAE
+[7.907s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_FenceMesh_01/model.config
+[7.907s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01
+[7.907s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/model.sdf
+[7.908s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/materials
+[7.909s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/materials/textures
+[7.910s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/materials/textures/aws_Ground_01.png
+[7.959s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/materials/textures/aws_GroundN_01.png
+[8.007s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/meshes
+[8.007s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/meshes/aws_Ground_01_visual.DAE
+[8.010s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/meshes/aws_Ground_01_collision.DAE
+[8.010s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Ground_01/model.config
+[8.011s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01
+[8.012s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/model.sdf
+[8.014s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/materials
+[8.014s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/materials/textures
+[8.015s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/materials/textures/aws_Track_01A.png
+[8.021s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/materials/textures/aws_Track_01.png
+[8.201s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/meshes
+[8.202s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/meshes/aws_Track_01_visual.DAE
+[8.207s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/meshes/aws_Track_01_collision.DAE
+[8.214s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_01/model.config
+[8.215s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01
+[8.216s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/model.sdf
+[8.216s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/materials
+[8.216s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/materials/textures
+[8.217s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/materials/textures/aws_CrashworthBucket_01.png
+[8.251s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/meshes
+[8.251s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/meshes/aws_CrashworthBucket_01_visual.DAE
+[8.255s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/meshes/aws_CrashworthBucket_01_collision.DAE
+[8.256s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_CrashworthBucket_01/model.config
+[8.259s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01
+[8.259s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/model.sdf
+[8.259s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/materials
+[8.262s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/materials/textures
+[8.262s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/materials/textures/aws_TrafficCone_01.png
+[8.287s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/meshes
+[8.293s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/meshes/aws_TrafficCone_01_visual.DAE
+[8.296s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/meshes/aws_TrafficCone_01_coliision.DAE
+[8.312s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_TrafficCone_01/model.config
+[8.321s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01
+[8.324s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/model.sdf
+[8.325s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/materials
+[8.325s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/materials/textures
+[8.325s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/materials/textures/aws_Wall_01.png
+[8.433s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/meshes
+[8.435s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/meshes/aws_Wall_01_collision.DAE
+[8.438s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/meshes/aws_Wall_01_visual.DAE
+[8.438s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Wall_01/model.config
+[8.439s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01
+[8.441s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/model.sdf
+[8.443s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/materials
+[8.443s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/materials/textures
+[8.447s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/materials/textures/aws_Fence_01.png
+[8.471s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/meshes
+[8.473s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/meshes/aws_Fence_01_visual.DAE
+[8.476s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/meshes/aws_Fence_01_collision.DAE
+[8.478s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Fence_01/model.config
+[8.484s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05
+[8.485s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/model.sdf
+[8.490s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials
+[8.490s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/textures
+[8.494s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/textures/aws_Track_05C.png
+[8.494s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/textures/aws_Track_05.png
+[8.704s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/textures/aws_Track_05B.png
+[8.710s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/aws_Track_05C.png
+[8.714s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/aws_Track_05.png
+[8.905s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/materials/aws_Track_05B.png
+[8.916s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/meshes
+[8.918s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/meshes/aws_Track_05_collision.DAE
+[8.926s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/meshes/aws_Track_05_visual.DAE
+[8.932s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_05/model.config
+[8.933s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03
+[8.933s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/model.sdf
+[8.936s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/materials
+[8.937s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/materials/textures
+[8.939s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/materials/textures/aws_Track_03.png
+[9.165s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/materials/textures/aws_Track_03B.png
+[9.168s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/meshes
+[9.169s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/meshes/aws_Track_03_visual.DAE
+[9.171s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/meshes/aws_Track_03_collision.DAE
+[9.178s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_03/model.config
+[9.182s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02
+[9.182s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/model.sdf
+[9.183s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/materials
+[9.184s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/materials/textures
+[9.186s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/materials/textures/aws_Track_02B.png
+[9.188s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/materials/textures/aws_Track_02.png
+[9.403s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/meshes
+[9.403s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/meshes/aws_Track_02_collision.DAE
+[9.409s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/meshes/aws_Track_02_visual.DAE
+[9.415s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_02/model.config
+[9.416s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04
+[9.418s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/model.sdf
+[9.421s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/materials
+[9.424s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/materials/textures
+[9.425s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/materials/textures/aws_Track_04.png
+[9.612s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/materials/textures/aws_Track_04B.png
+[9.615s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/meshes
+[9.619s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/meshes/aws_Track_04_collision.DAE
+[9.623s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/meshes/aws_Track_04_visual.DAE
+[9.627s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Track_04/model.config
+[9.632s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01
+[9.633s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/model.sdf
+[9.639s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/materials
+[9.639s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/materials/textures
+[9.642s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/materials/textures/aws_Billboard_01.png
+[9.672s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/meshes
+[9.672s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/meshes/aws_Billboard_01_collision.DAE
+[9.681s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/meshes/aws_Billboard_01_visual.DAE
+[9.682s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Billboard_01/model.config
+[9.682s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01
+[9.682s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/model.sdf
+[9.682s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/materials
+[9.683s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/materials/textures
+[9.683s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/materials/textures/aws_Trackline_01.png
+[9.686s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/meshes
+[9.687s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/meshes/aws_Trackline_01_visual.DAE
+[9.688s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/meshes/aws_Trackline_01_collision.DAE
+[9.692s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Trackline_01/model.config
+[9.693s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01
+[9.693s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/model.sdf
+[9.715s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/materials
+[9.716s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/materials/textures
+[9.716s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/materials/textures/aws_StonePier_01.png
+[9.769s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/meshes
+[9.782s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/meshes/aws_StonePier_01_collision.DAE
+[9.783s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/meshes/aws_StonePier_01_visual.DAE
+[9.783s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StonePier_01/model.config
+[9.783s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01
+[9.783s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/model.sdf
+[9.784s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/materials
+[9.784s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/materials/textures
+[9.784s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/materials/textures/aws_Archway_01.png
+[9.797s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/meshes
+[9.797s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/meshes/aws_Archway_01_visual.DAE
+[9.798s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/meshes/aws_Archway_01_collision.DAE
+[9.802s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Archway_01/model.config
+[9.805s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01
+[9.806s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/model.sdf
+[9.806s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/materials
+[9.809s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/materials/textures
+[9.811s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/materials/textures/aws_Light_01.png
+[9.842s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/meshes
+[9.844s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/meshes/aws_Light_01_visual.DAE
+[9.847s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/meshes/aws_Light_01_collision.DAE
+[9.851s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Light_01/model.config
+[9.852s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01
+[9.852s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/model.sdf
+[9.852s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/materials
+[9.853s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/materials/textures
+[9.853s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/materials/textures/aws_RaceStartLight_01.png
+[9.877s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/meshes
+[9.878s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/meshes/aws_RaceStartLight_01_visual.DAE
+[9.887s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/meshes/aws_RaceStartLight_01_collision.DAE
+[9.887s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_RaceStartLight_01/model.config
+[9.891s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01
+[9.893s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/model.sdf
+[9.893s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/materials
+[9.894s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/materials/textures
+[9.894s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/materials/textures/aws_Column_01.png
+[9.987s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/meshes
+[9.991s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/meshes/aws_Column_01_visual.DAE
+[9.999s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/meshes/aws_Column_01_collision.DAE
+[9.999s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_Column_01/model.config
+[10.005s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01
+[10.006s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/model.sdf
+[10.006s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/materials
+[10.007s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/materials/textures
+[10.012s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/materials/textures/aws_StopSign_01.png
+[10.018s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/meshes
+[10.018s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/meshes/aws_StopSign_01_collision.DAE
+[10.018s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/meshes/aws_StopSign_01_visual.DAE
+[10.019s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/models/aws_robomaker_racetrack_StopSign_01/model.config
+[10.026s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/worlds
+[10.031s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/worlds/racetrack_night.world
+[10.031s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/worlds/racetrack_day.world
+[10.031s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/worlds/racetrack_day_empty.world
+[10.038s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/ament_index/resource_index/package_run_dependencies/aws_robomaker_racetrack_world
+[10.038s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/ament_index/resource_index/parent_prefix_path/aws_robomaker_racetrack_world
+[10.038s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/environment/ament_prefix_path.sh
+[10.039s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/environment/ament_prefix_path.dsv
+[10.039s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/environment/path.sh
+[10.039s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/environment/path.dsv
+[10.039s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/local_setup.bash
+[10.042s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/local_setup.sh
+[10.046s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/local_setup.zsh
+[10.046s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/local_setup.dsv
+[10.047s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/package.dsv
+[10.047s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/ament_index/resource_index/packages/aws_robomaker_racetrack_world
+[10.048s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.049s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/cmake/aws_robomaker_racetrack_worldConfig.cmake
+[10.049s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/cmake/aws_robomaker_racetrack_worldConfig-version.cmake
+[10.052s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/aws_robomaker_racetrack_world/share/aws_robomaker_racetrack_world/package.xml
+[10.067s] Invoked command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/aws_robomaker_racetrack_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/aws_robomaker_racetrack_world

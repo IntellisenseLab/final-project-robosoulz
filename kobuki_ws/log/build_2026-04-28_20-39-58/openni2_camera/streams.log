@@ -1,0 +1,309 @@
+[0.032s] Invoking command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/openni2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/src/ThirdParty/openni2_camera/openni2_camera -DCMAKE_INSTALL_PREFIX=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera
+[0.363s] -- The C compiler identification is GNU 13.3.0
+[0.683s] -- The CXX compiler identification is GNU 13.3.0
+[0.759s] -- Detecting C compiler ABI info
+[1.122s] -- Detecting C compiler ABI info - done
+[1.156s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.157s] -- Detecting C compile features
+[1.160s] -- Detecting C compile features - done
+[1.208s] -- Detecting CXX compiler ABI info
+[1.949s] -- Detecting CXX compiler ABI info - done
+[2.016s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.016s] -- Detecting CXX compile features
+[2.030s] -- Detecting CXX compile features - done
+[2.079s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.810s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.463s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[3.679s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.791s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.848s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.894s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.004s] -- Found camera_info_manager: 5.1.7 (/opt/ros/jazzy/share/camera_info_manager/cmake)
+[4.364s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.365s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[4.930s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.019s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.142s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.779s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[6.078s] -- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)
+[6.191s] -- Found rclcpp_components: 28.1.18 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[6.329s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[6.476s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[6.481s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[6.487s] -- Checking for module 'libopenni2'
+[6.607s] --   Found libopenni2, version 2.2.0.3
+[9.080s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[12.448s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.561s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.580s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[14.138s] -- Found PythonExtra: /usr/bin/python3  
+[16.050s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[16.325s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[16.396s] -- Configuring done (16.3s)
+[16.851s] -- Generating done (0.4s)
+[16.999s] -- Build files have been written to: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/openni2_camera
+[17.074s] Invoked command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/openni2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/src/ThirdParty/openni2_camera/openni2_camera -DCMAKE_INSTALL_PREFIX=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera
+[17.077s] Invoking command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/openni2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/openni2_camera -- -j4 -l4
+[17.416s] [  1%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[18.746s] [  1%] Built target openni2_camera__rs
+[18.814s] [  3%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_convert.cpp.o[0m
+[20.437s] [  5%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_device.cpp.o[0m
+[34.949s] [  7%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_device_info.cpp.o[0m
+[36.327s] [  9%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_timer_filter.cpp.o[0m
+[37.785s] [ 11%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_frame_listener.cpp.o[0m
+[56.488s] [ 12%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_device_manager.cpp.o[0m
+[70.050s] [ 14%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_exception.cpp.o[0m
+[71.547s] [ 16%] [32mBuilding CXX object CMakeFiles/openni2_wrapper.dir/src/openni2_video_mode.cpp.o[0m
+[73.160s] [ 18%] [32m[1mLinking CXX shared library libopenni2_wrapper.so[0m
+[74.473s] [ 18%] Built target openni2_wrapper
+[74.594s] [ 20%] [32mBuilding CXX object CMakeFiles/openni2_camera_driver.dir/rclcpp_components/node_main_openni2_camera_driver.cpp.o[0m
+[87.634s] [ 22%] [32m[1mLinking CXX executable openni2_camera_driver[0m
+[88.285s] [ 22%] Built target openni2_camera_driver
+[88.432s] [ 24%] [32mBuilding C object CMakeFiles/usb_reset.dir/src/usb_reset.c.o[0m
+[88.761s] [ 25%] [32m[1mLinking C executable usb_reset[0m
+[88.938s] [ 25%] Built target usb_reset
+[89.038s] [ 27%] [32mBuilding CXX object CMakeFiles/test_wrapper.dir/test/test_wrapper.cpp.o[0m
+[102.985s] [ 29%] [32m[1mLinking CXX executable test_wrapper[0m
+[104.368s] [ 29%] Built target test_wrapper
+[104.546s] [ 31%] [32mBuilding CXX object CMakeFiles/list_devices.dir/src/list_devices.cpp.o[0m
+[116.954s] [ 33%] [32m[1mLinking CXX executable list_devices[0m
+[117.625s] [ 33%] Built target list_devices
+[117.850s] [ 33%] Built target ament_cmake_python_copy_openni2_camera
+[118.081s] [ 35%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[119.005s] [ 35%] Built target openni2_camera__rosidl_generator_type_description
+[120.541s] running egg_info
+[120.542s] creating openni2_camera.egg-info
+[120.690s] writing openni2_camera.egg-info/PKG-INFO
+[120.692s] writing dependency_links to openni2_camera.egg-info/dependency_links.txt
+[120.694s] writing top-level names to openni2_camera.egg-info/top_level.txt
+[120.695s] writing manifest file 'openni2_camera.egg-info/SOURCES.txt'
+[121.030s] reading manifest file 'openni2_camera.egg-info/SOURCES.txt'
+[121.034s] writing manifest file 'openni2_camera.egg-info/SOURCES.txt'
+[121.265s] [ 35%] Built target ament_cmake_python_build_openni2_camera_egg
+[121.377s] [ 37%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[122.655s] [ 37%] Built target openni2_camera__cpp
+[122.758s] [ 38%] [34m[1mGenerating C code for ROS interfaces[0m
+[125.027s] [ 40%] [32mBuilding C object CMakeFiles/openni2_camera__rosidl_generator_c.dir/rosidl_generator_c/openni2_camera/srv/detail/get_serial__description.c.o[0m
+[125.282s] [ 42%] [32mBuilding C object CMakeFiles/openni2_camera__rosidl_generator_c.dir/rosidl_generator_c/openni2_camera/srv/detail/get_serial__type_support.c.o[0m
+[125.562s] [ 44%] [32mBuilding C object CMakeFiles/openni2_camera__rosidl_generator_c.dir/rosidl_generator_c/openni2_camera/srv/detail/get_serial__functions.c.o[0m
+[125.907s] [ 46%] [32m[1mLinking C shared library libopenni2_camera__rosidl_generator_c.so[0m
+[126.209s] [ 46%] Built target openni2_camera__rosidl_generator_c
+[126.291s] [ 48%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[127.849s] [ 50%] [32mBuilding CXX object CMakeFiles/openni2_camera__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/openni2_camera/srv/detail/get_serial__type_support_c.cpp.o[0m
+[130.196s] [ 51%] [32m[1mLinking CXX shared library libopenni2_camera__rosidl_typesupport_fastrtps_c.so[0m
+[130.569s] [ 51%] Built target openni2_camera__rosidl_typesupport_fastrtps_c
+[130.641s] [ 53%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[131.579s] [ 55%] [32mBuilding CXX object CMakeFiles/openni2_camera__rosidl_typesupport_c.dir/rosidl_typesupport_c/openni2_camera/srv/get_serial__type_support.cpp.o[0m
+[131.787s] [ 57%] [32m[1mLinking CXX shared library libopenni2_camera__rosidl_typesupport_c.so[0m
+[131.988s] [ 57%] Built target openni2_camera__rosidl_typesupport_c
+[132.039s] [ 59%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[133.678s] [ 61%] [32mBuilding CXX object CMakeFiles/openni2_camera__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/openni2_camera/srv/detail/get_serial__type_support.cpp.o[0m
+[135.532s] [ 62%] [32m[1mLinking CXX shared library libopenni2_camera__rosidl_typesupport_introspection_cpp.so[0m
+[135.894s] [ 62%] Built target openni2_camera__rosidl_typesupport_introspection_cpp
+[135.948s] [ 64%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[137.058s] [ 66%] [32mBuilding CXX object CMakeFiles/openni2_camera__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/openni2_camera/srv/get_serial__type_support.cpp.o[0m
+[138.620s] [ 68%] [32m[1mLinking CXX shared library libopenni2_camera__rosidl_typesupport_cpp.so[0m
+[139.152s] [ 68%] Built target openni2_camera__rosidl_typesupport_cpp
+[139.207s] [ 70%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[140.172s] [ 72%] [32mBuilding C object CMakeFiles/openni2_camera__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/openni2_camera/srv/detail/get_serial__type_support.c.o[0m
+[140.571s] [ 74%] [32m[1mLinking C shared library libopenni2_camera__rosidl_typesupport_introspection_c.so[0m
+[140.732s] [ 74%] Built target openni2_camera__rosidl_typesupport_introspection_c
+[140.859s] [ 75%] [32mBuilding CXX object CMakeFiles/openni2_camera_lib.dir/src/openni2_driver.cpp.o[0m
+[176.193s] [ 77%] [32m[1mLinking CXX shared library libopenni2_camera_lib.so[0m
+[177.721s] [ 77%] Built target openni2_camera_lib
+[177.775s] [ 79%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[179.171s] [ 81%] [32mBuilding CXX object CMakeFiles/openni2_camera__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/openni2_camera/srv/detail/dds_fastrtps/get_serial__type_support.cpp.o[0m
+[181.687s] [ 83%] [32m[1mLinking CXX shared library libopenni2_camera__rosidl_typesupport_fastrtps_cpp.so[0m
+[182.045s] [ 83%] Built target openni2_camera__rosidl_typesupport_fastrtps_cpp
+[182.187s] [ 83%] Built target openni2_camera
+[182.296s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[184.015s] [ 85%] Built target openni2_camera__py
+[184.126s] [ 87%] [32mBuilding C object CMakeFiles/openni2_camera__rosidl_generator_py.dir/rosidl_generator_py/openni2_camera/srv/_get_serial_s.c.o[0m
+[184.744s] [ 88%] [32m[1mLinking C shared library libopenni2_camera__rosidl_generator_py.so[0m
+[185.023s] [ 88%] Built target openni2_camera__rosidl_generator_py
+[185.120s] [ 90%] [32mBuilding C object CMakeFiles/openni2_camera_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[185.600s] [ 92%] [32m[1mLinking C shared module rosidl_generator_py/openni2_camera/openni2_camera_s__rosidl_typesupport_fastrtps_c.so[0m
+[185.761s] [ 92%] Built target openni2_camera_s__rosidl_typesupport_fastrtps_c
+[185.857s] [ 94%] [32mBuilding C object CMakeFiles/openni2_camera_s__rosidl_typesupport_c.dir/rosidl_generator_py/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_c.c.o[0m
+[186.371s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/openni2_camera/openni2_camera_s__rosidl_typesupport_c.so[0m
+[186.555s] [ 96%] Built target openni2_camera_s__rosidl_typesupport_c
+[186.699s] [ 98%] [32mBuilding C object CMakeFiles/openni2_camera_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[187.340s] [100%] [32m[1mLinking C shared module rosidl_generator_py/openni2_camera/openni2_camera_s__rosidl_typesupport_introspection_c.so[0m
+[187.528s] [100%] Built target openni2_camera_s__rosidl_typesupport_introspection_c
+[187.605s] Invoked command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/openni2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/openni2_camera -- -j4 -l4
+[187.622s] Invoking command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/openni2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/openni2_camera
+[187.654s] -- Install configuration: ""
+[187.658s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/ament_index/resource_index/rosidl_interfaces/openni2_camera
+[187.659s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/srv/GetSerial.json
+[187.659s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera
+[187.661s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg
+[187.663s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg/rosidl_generator_c__visibility_control.h
+[187.665s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv
+[187.665s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail
+[187.666s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__struct.h
+[187.669s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__functions.h
+[187.670s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__type_support.c
+[187.672s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__type_support.h
+[187.673s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__description.c
+[187.674s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__functions.c
+[187.675s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/get_serial.h
+[187.677s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/environment/library_path.sh
+[187.678s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/environment/library_path.dsv
+[187.680s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_generator_c.so
+[187.684s] -- Set non-toolchain portion of runtime path of "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_generator_c.so" to ""
+[187.685s] -- Up-to-date: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera
+[187.687s] -- Up-to-date: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg
+[187.687s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[187.687s] -- Up-to-date: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv
+[187.687s] -- Up-to-date: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail
+[187.688s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__rosidl_typesupport_fastrtps_c.h
+[187.690s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_fastrtps_c.so
+[187.692s] -- Set non-toolchain portion of runtime path of "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_fastrtps_c.so" to ""
+[187.693s] -- Up-to-date: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera
+[187.694s] -- Up-to-date: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg
+[187.785s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg/rosidl_generator_cpp__visibility_control.hpp
+[187.786s] -- Up-to-date: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv
+[187.787s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/get_serial.hpp
+[187.787s] -- Up-to-date: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail
+[187.788s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__builder.hpp
+[187.788s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__traits.hpp
+[187.789s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__type_support.hpp
+[187.791s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__struct.hpp
+[187.792s] -- Up-to-date: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera
+[187.795s] -- Up-to-date: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg
+[187.796s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[187.797s] -- Up-to-date: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv
+[187.797s] -- Up-to-date: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail
+[187.797s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__rosidl_typesupport_fastrtps_cpp.hpp
+[187.798s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/dds_fastrtps
+[187.801s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_fastrtps_cpp.so
+[187.802s] -- Set non-toolchain portion of runtime path of "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_fastrtps_cpp.so" to ""
+[187.802s] -- Up-to-date: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera
+[187.802s] -- Up-to-date: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg
+[187.803s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[187.803s] -- Up-to-date: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv
+[187.803s] -- Up-to-date: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail
+[187.804s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__type_support.c
+[187.804s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__rosidl_typesupport_introspection_c.h
+[187.804s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_introspection_c.so
+[187.804s] -- Set non-toolchain portion of runtime path of "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_introspection_c.so" to ""
+[187.805s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_c.so
+[187.805s] -- Set non-toolchain portion of runtime path of "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_c.so" to ""
+[187.806s] -- Up-to-date: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera
+[187.806s] -- Up-to-date: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv
+[187.807s] -- Up-to-date: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail
+[187.807s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__rosidl_typesupport_introspection_cpp.hpp
+[187.807s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_camera/srv/detail/get_serial__type_support.cpp
+[187.808s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_introspection_cpp.so
+[187.809s] -- Set non-toolchain portion of runtime path of "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_introspection_cpp.so" to ""
+[187.810s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_cpp.so
+[187.812s] -- Set non-toolchain portion of runtime path of "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_typesupport_cpp.so" to ""
+[187.813s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/environment/pythonpath.sh
+[187.813s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/environment/pythonpath.dsv
+[187.814s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera-2.3.0-py3.12.egg-info
+[187.814s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera-2.3.0-py3.12.egg-info/top_level.txt
+[187.815s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera-2.3.0-py3.12.egg-info/PKG-INFO
+[187.820s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera-2.3.0-py3.12.egg-info/SOURCES.txt
+[187.821s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera-2.3.0-py3.12.egg-info/dependency_links.txt
+[187.824s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera
+[187.824s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_introspection_c.c
+[187.824s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_introspection_c.so
+[187.824s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/__init__.py
+[187.835s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_fastrtps_c.c
+[187.835s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv
+[187.839s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv/_get_serial.py
+[187.840s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv/__init__.py
+[187.843s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv/_get_serial_s.c
+[187.846s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_fastrtps_c.so
+[187.849s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/_openni2_camera_s.ep.rosidl_typesupport_c.c
+[187.854s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_c.so
+[188.045s] Listing '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera'...
+[188.045s] Compiling '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/__init__.py'...
+[188.045s] Listing '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv'...
+[188.046s] Compiling '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv/__init__.py'...
+[188.046s] Compiling '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/srv/_get_serial.py'...
+[188.075s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_fastrtps_c.so
+[188.076s] -- Set non-toolchain portion of runtime path of "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_fastrtps_c.so" to ""
+[188.076s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_introspection_c.so
+[188.077s] -- Set non-toolchain portion of runtime path of "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_introspection_c.so" to ""
+[188.078s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_c.so
+[188.080s] -- Set non-toolchain portion of runtime path of "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/python3.12/site-packages/openni2_camera/openni2_camera_s__rosidl_typesupport_c.so" to ""
+[188.080s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_generator_py.so
+[188.082s] -- Set non-toolchain portion of runtime path of "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/libopenni2_camera__rosidl_generator_py.so" to ""
+[188.084s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/ament_index/resource_index/rust_packages/openni2_camera
+[188.085s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/rust
+[188.085s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/rust/build.rs
+[188.085s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/rust/src
+[188.085s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/rust/src/lib.rs
+[188.086s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/rust/src/srv
+[188.086s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/rust/src/srv/rmw.rs
+[188.086s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/rust/src/srv.rs
+[188.086s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/rust/Cargo.toml
+[188.088s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/srv/GetSerial.idl
+[188.092s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/srv/GetSerial.srv
+[188.093s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/openni2_camera/openni2_camera_driver
+[188.093s] -- Set non-toolchain portion of runtime path of "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/openni2_camera/openni2_camera_driver" to ""
+[188.093s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/openni2_camera/list_devices
+[188.093s] -- Set non-toolchain portion of runtime path of "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/openni2_camera/list_devices" to ""
+[188.093s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/libopenni2_camera_lib.so
+[188.105s] -- Set non-toolchain portion of runtime path of "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/libopenni2_camera_lib.so" to ""
+[188.106s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/libopenni2_wrapper.so
+[188.113s] -- Set non-toolchain portion of runtime path of "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/libopenni2_wrapper.so" to ""
+[188.114s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/lib/openni2_camera/usb_reset
+[188.118s] -- Up-to-date: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include
+[188.119s] -- Up-to-date: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera
+[188.121s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_video_mode.h
+[188.121s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_frame_listener.h
+[188.123s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_timer_filter.h
+[188.127s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_device_manager.h
+[188.127s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_exception.h
+[188.129s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_device.h
+[188.131s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_device_info.h
+[188.132s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_convert.h
+[188.153s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/include/openni2_camera/openni2_driver.h
+[188.161s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera//launch
+[188.166s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera//launch/camera_with_cloud.launch.py
+[188.175s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera//launch/tfs.launch.py
+[188.175s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera//launch/camera_with_cloud_norgb.launch.py
+[188.176s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera//launch/camera_only.launch.py
+[188.184s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/ament_index/resource_index/package_run_dependencies/openni2_camera
+[188.193s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/ament_index/resource_index/parent_prefix_path/openni2_camera
+[188.204s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/environment/ament_prefix_path.sh
+[188.215s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/environment/ament_prefix_path.dsv
+[188.215s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/environment/path.sh
+[188.216s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/environment/path.dsv
+[188.216s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/local_setup.bash
+[188.216s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/local_setup.sh
+[188.217s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/local_setup.zsh
+[188.222s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/local_setup.dsv
+[188.228s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/package.dsv
+[188.229s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/ament_index/resource_index/packages/openni2_camera
+[188.229s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/ament_index/resource_index/rclcpp_components/openni2_camera
+[188.229s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_generator_cExport.cmake
+[188.230s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_generator_cExport-noconfig.cmake
+[188.230s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_typesupport_fastrtps_cExport.cmake
+[188.230s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[188.230s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_generator_cppExport.cmake
+[188.231s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_typesupport_fastrtps_cppExport.cmake
+[188.232s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[188.233s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_introspection_cExport.cmake
+[188.233s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[188.234s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_cExport.cmake
+[188.235s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_cExport-noconfig.cmake
+[188.235s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_introspection_cppExport.cmake
+[188.235s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[188.237s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_cppExport.cmake
+[188.238s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_camera__rosidl_typesupport_cppExport-noconfig.cmake
+[188.241s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_generator_pyExport.cmake
+[188.243s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/export_openni2_camera__rosidl_generator_pyExport-noconfig.cmake
+[188.248s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/rosidl_cmake-extras.cmake
+[188.248s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[188.251s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[188.253s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[188.254s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/ament_cmake_export_targets-extras.cmake
+[188.254s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[188.254s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[188.255s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_cameraConfig.cmake
+[188.256s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/cmake/openni2_cameraConfig-version.cmake
+[188.257s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/openni2_camera/share/openni2_camera/package.xml
+[188.266s] Invoked command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/openni2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/openni2_camera

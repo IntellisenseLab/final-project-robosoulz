@@ -1,0 +1,79 @@
+[0.035s] Invoking command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_keyop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/src/ThirdParty/kobuki_ros/kobuki_keyop -DCMAKE_INSTALL_PREFIX=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop
+[0.491s] -- The C compiler identification is GNU 13.3.0
+[0.806s] -- The CXX compiler identification is GNU 13.3.0
+[0.861s] -- Detecting C compiler ABI info
+[1.231s] -- Detecting C compiler ABI info - done
+[1.252s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.255s] -- Detecting C compile features
+[1.262s] -- Detecting C compile features - done
+[1.315s] -- Detecting CXX compiler ABI info
+[1.904s] -- Detecting CXX compiler ABI info - done
+[1.990s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.991s] -- Detecting CXX compile features
+[1.993s] -- Detecting CXX compile features - done
+[2.011s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.179s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.971s] -- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+[4.031s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[4.031s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[4.031s]   CMake.
+[4.031s] 
+[4.032s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[4.032s]   CMake that the project does not need compatibility with older versions.
+[4.032s] Call Stack (most recent call first):
+[4.040s]   /opt/ros/jazzy/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[4.040s]   CMakeLists.txt:5 (find_package)
+[4.040s] 
+[4.041s] [0m
+[4.051s] -- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[4.382s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.506s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.585s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.766s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.106s] -- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/jazzy/share/kobuki_ros_interfaces/cmake)
+[5.534s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[5.842s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.860s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[6.441s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[6.582s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[6.771s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.103s] -- Found rclcpp_components: 28.1.18 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[7.797s] -- Configuring done (7.7s)
+[7.887s] -- Generating done (0.0s)
+[7.929s] -- Build files have been written to: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_keyop
+[7.979s] Invoked command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_keyop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/src/ThirdParty/kobuki_ros/kobuki_keyop -DCMAKE_INSTALL_PREFIX=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop
+[7.981s] Invoking command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_keyop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_keyop -- -j4 -l4
+[8.311s] [ 25%] [32mBuilding CXX object CMakeFiles/kobuki_keyop.dir/src/keyop.cpp.o[0m
+[49.259s] [ 50%] [32m[1mLinking CXX shared library libkobuki_keyop.so[0m
+[51.435s] [ 50%] Built target kobuki_keyop
+[51.577s] [ 75%] [32mBuilding CXX object CMakeFiles/kobuki_keyop_node.dir/rclcpp_components/node_main_kobuki_keyop_node.cpp.o[0m
+[66.587s] [100%] [32m[1mLinking CXX executable kobuki_keyop_node[0m
+[67.424s] [100%] Built target kobuki_keyop_node
+[67.502s] Invoked command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_keyop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_keyop -- -j4 -l4
+[67.508s] Invoking command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_keyop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_keyop
+[67.564s] -- Install configuration: ""
+[67.568s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/lib/kobuki_keyop/kobuki_keyop_node
+[67.572s] -- Set non-toolchain portion of runtime path of "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/lib/kobuki_keyop/kobuki_keyop_node" to ""
+[67.572s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/lib/libkobuki_keyop.so
+[67.597s] -- Set non-toolchain portion of runtime path of "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/lib/libkobuki_keyop.so" to ""
+[67.598s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/include/kobuki_keyop
+[67.599s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/include/kobuki_keyop/keyop.hpp
+[67.600s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/share/kobuki_keyop/config
+[67.603s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/share/kobuki_keyop/config/keyop_params.yaml
+[67.605s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/share/ament_index/resource_index/package_run_dependencies/kobuki_keyop
+[67.606s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/share/ament_index/resource_index/parent_prefix_path/kobuki_keyop
+[67.609s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/share/kobuki_keyop/environment/ament_prefix_path.sh
+[67.611s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/share/kobuki_keyop/environment/ament_prefix_path.dsv
+[67.612s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/share/kobuki_keyop/environment/path.sh
+[67.612s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/share/kobuki_keyop/environment/path.dsv
+[67.614s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/share/kobuki_keyop/local_setup.bash
+[67.618s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/share/kobuki_keyop/local_setup.sh
+[67.618s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/share/kobuki_keyop/local_setup.zsh
+[67.619s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/share/kobuki_keyop/local_setup.dsv
+[67.619s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/share/kobuki_keyop/package.dsv
+[67.619s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/share/ament_index/resource_index/packages/kobuki_keyop
+[67.619s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/share/ament_index/resource_index/rclcpp_components/kobuki_keyop
+[67.634s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/share/kobuki_keyop/cmake/kobuki_keyopConfig.cmake
+[67.639s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/share/kobuki_keyop/cmake/kobuki_keyopConfig-version.cmake
+[67.642s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_keyop/share/kobuki_keyop/package.xml
+[67.645s] Invoked command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_keyop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_keyop

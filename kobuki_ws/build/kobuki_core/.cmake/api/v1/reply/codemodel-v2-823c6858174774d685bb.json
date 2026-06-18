@@ -1,0 +1,254 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4829bc4dd65fa52ab3b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						11,
+						12
+					]
+				},
+				{
+					"build" : "include",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-include-d1e53bca031664103cbf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "include"
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/driver",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.driver-7d9ca59b5f2efe24934a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/driver",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/demos",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.demos-506dc1c55ce932938e26.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/demos",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "src/tools",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.tools-3881cf7726517131ff46.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "src/tools",
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "kobuki_core",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "kobuki_core::@49e83f50c4c71b496537",
+					"jsonFile" : "target-kobuki_core-6643af3f3c9bf8bb0ef7.json",
+					"name" : "kobuki_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_buttons::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_buttons-3f20bc58ef4b5ceae1b2.json",
+					"name" : "kobuki_core_demo_buttons",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_chirp::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_chirp-39c6c88cf48c21855c64.json",
+					"name" : "kobuki_core_demo_chirp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_custom_logging::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_custom_logging-d1f1dafeab907ad3394e.json",
+					"name" : "kobuki_core_demo_custom_logging",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_data_stream::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_data_stream-24d4d2d7dbbac8bfea51.json",
+					"name" : "kobuki_core_demo_data_stream",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_log_levels::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_log_levels-acd4320ab819116569ca.json",
+					"name" : "kobuki_core_demo_log_levels",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_raw_data_stream::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_raw_data_stream-8deb34d25b6c0d93254c.json",
+					"name" : "kobuki_core_demo_raw_data_stream",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_simple_loop::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_simple_loop-cad84cf10a77b8fe06ed.json",
+					"name" : "kobuki_core_demo_simple_loop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "kobuki_core_demo_velocity_commands::@46e0403ce4e0bd9aa1c8",
+					"jsonFile" : "target-kobuki_core_demo_velocity_commands-224feeebfff2127c8e11.json",
+					"name" : "kobuki_core_demo_velocity_commands",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "kobuki_core_tool_simple_keyop::@de05559f4338c8534979",
+					"jsonFile" : "target-kobuki_core_tool_simple_keyop-d0cfad3992ae236d27b0.json",
+					"name" : "kobuki_core_tool_simple_keyop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "kobuki_core_tool_version_info::@de05559f4338c8534979",
+					"jsonFile" : "target-kobuki_core_tool_version_info-cfb6bf1ba88baa26e3bb.json",
+					"name" : "kobuki_core_tool_version_info",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_core_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_core_uninstall-b76d7f6790f6f794dd78.json",
+					"name" : "kobuki_core_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bffd1d8f1a4da24a09bd.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_core",
+		"source" : "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/src/ThirdParty/kobuki_core"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

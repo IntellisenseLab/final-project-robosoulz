@@ -1,0 +1,190 @@
+[0.107s] Invoking command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/src/ThirdParty/ecl/ecl_lite/ecl_config -DCMAKE_INSTALL_PREFIX=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config
+[0.988s] -- The C compiler identification is GNU 13.3.0
+[1.628s] -- The CXX compiler identification is GNU 13.3.0
+[1.720s] -- Detecting C compiler ABI info
+[2.294s] -- Detecting C compiler ABI info - done
+[2.378s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.385s] -- Detecting C compile features
+[2.385s] -- Detecting C compile features - done
+[2.462s] -- Detecting CXX compiler ABI info
+[2.970s] -- Detecting CXX compiler ABI info - done
+[3.035s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.036s] -- Detecting CXX compile features
+[3.047s] -- Detecting CXX compile features - done
+[3.094s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.883s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.731s] -- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+[4.756s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[4.756s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[4.756s]   CMake.
+[4.756s] 
+[4.757s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[4.757s]   CMake that the project does not need compatibility with older versions.
+[4.757s] Call Stack (most recent call first):
+[4.757s]   /opt/ros/jazzy/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[4.758s]   CMakeLists.txt:17 (find_package)
+[4.758s] 
+[4.760s] [0m
+[4.764s] -- Looking for _POSIX_VERSION
+[5.198s] -- Looking for _POSIX_VERSION - found
+[5.198s] -- Looking for realpath in rt
+[5.681s] -- Looking for realpath in rt - found
+[5.685s] -- Looking for clock_nanosleep in rt
+[6.384s] -- Looking for clock_nanosleep in rt - found
+[6.385s] -- Looking for clock_gettime in rt
+[6.939s] -- Looking for clock_gettime in rt - found
+[6.939s] -- Looking for pthread_mutex_timedlock in pthread
+[7.538s] -- Looking for pthread_mutex_timedlock in pthread - found
+[7.538s] -- Looking for nanosleep in pthread
+[8.245s] -- Looking for nanosleep in pthread - found
+[8.245s] -- Looking for shm_open in rt
+[8.812s] -- Looking for shm_open in rt - found
+[8.817s] -- Looking for sched_setscheduler in pthread
+[9.432s] -- Looking for sched_setscheduler in pthread - found
+[9.434s] -- Looking for sem_timedwait in pthread
+[10.138s] -- Looking for sem_timedwait in pthread - found
+[10.140s] -- Looking for sem_init in pthread
+[10.940s] -- Looking for sem_init in pthread - found
+[10.940s] -- Looking for CLOCK_MONOTONIC
+[11.482s] -- Looking for CLOCK_MONOTONIC - found
+[11.484s] -- Looking for CLOCK_PROCESS_CPUTIME_ID
+[12.032s] -- Looking for CLOCK_PROCESS_CPUTIME_ID - found
+[12.037s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.682s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.682s] -- Found Threads: TRUE  
+[12.707s] -- Looking for sys/types.h
+[13.507s] -- Looking for sys/types.h - found
+[13.509s] -- Looking for stdint.h
+[14.009s] -- Looking for stdint.h - found
+[14.010s] -- Looking for stddef.h
+[14.522s] -- Looking for stddef.h - found
+[14.529s] -- Check size of char
+[15.118s] -- Check size of char - done
+[15.119s] -- Check size of short
+[15.751s] -- Check size of short - done
+[15.753s] -- Check size of int
+[16.257s] -- Check size of int - done
+[16.260s] -- Check size of long
+[16.840s] -- Check size of long - done
+[16.842s] -- Check size of long long
+[17.595s] -- Check size of long long - done
+[17.596s] -- Check size of float
+[18.099s] -- Check size of float - done
+[18.103s] -- Check size of double
+[18.614s] -- Check size of double - done
+[18.615s] -- Check size of long double
+[19.133s] -- Check size of long double - done
+[19.182s] -- -------------------------------------------------------------------
+[19.182s] -- Platform Summary
+[19.182s] -- -------------------------------------------------------------------
+[19.183s] -- 
+[19.183s] -- System type.....................posix
+[19.184s] -- Operating System................Linux-6.8.0-1052-raspi
+[19.184s] -- Timer model.....................real-time
+[19.186s] -- Thread model....................posix
+[19.187s] -- Size of char....................1
+[19.187s] -- Size of short...................2
+[19.188s] -- Size of int.....................4
+[19.188s] -- Size of long....................8
+[19.189s] -- Size of long long...............8
+[19.190s] -- Size of float...................4
+[19.190s] -- Size of double..................8
+[19.191s] -- Size of long double.............16
+[19.192s] -- Size of pointer.................64-bit
+[19.192s] -- Endianness......................little-endian
+[19.192s] -- 
+[19.193s] -- -------------------------------------------------------------------
+[19.193s] -- Posix Specifications
+[19.193s] -- -------------------------------------------------------------------
+[19.193s] -- 
+[19.194s] -- Clock selection.................yes
+[19.194s] -- Monotonic clock.................yes
+[19.199s] -- Priority scheduling.............yes
+[19.200s] -- Semaphores......................yes
+[19.200s] -- Shared memory objects...........yes
+[19.200s] -- Timers..........................yes
+[19.201s] -- Timeouts........................yes
+[19.201s] --  - clock_gettime................yes
+[19.201s] --  - clock_nanosleep..............yes
+[19.202s] --  - nanosleep....................yes
+[19.203s] --  - pthread_mutex_timedlock......yes
+[19.203s] --  - sched_setscheduler...........yes
+[19.204s] --  - sem_init.....................yes
+[19.204s] --  - sem_timedwait................yes
+[19.206s] --  - shm_open.....................yes
+[19.207s] -- 
+[19.207s] -- -------------------------------------------------------------------
+[19.208s] -- Build Environment
+[19.209s] -- -------------------------------------------------------------------
+[19.209s] -- 
+[19.209s] -- Compiler......................../usr/bin/c++
+[19.210s] --  - version......................c++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+[19.210s] Copyright (C) 2023 Free Software Foundation, Inc.
+[19.210s] This is free software see the source for copying conditions.  There is NO
+[19.210s] warranty not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+[19.211s] 
+[19.211s] 
+[19.220s] -- 
+[19.249s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[19.836s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[20.668s] -- Configuring done (20.3s)
+[20.841s] -- Generating done (0.1s)
+[20.875s] -- Build files have been written to: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_config
+[20.925s] Invoked command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/src/ThirdParty/ecl/ecl_lite/ecl_config -DCMAKE_INSTALL_PREFIX=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config
+[20.928s] Invoking command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_config -- -j4 -l4
+[21.355s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[21.412s] [ 12%] [32mBuilding CXX object src/utilities/CMakeFiles/ecl_detect_posix.dir/detect_posix.cpp.o[0m
+[21.423s] [ 18%] [32mBuilding CXX object src/utilities/CMakeFiles/ecl_detect_endian.dir/detect_endian.cpp.o[0m
+[21.449s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[23.996s] [ 31%] [32m[1mLinking CXX executable bin/ecl_detect_endian[0m
+[24.460s] [ 37%] [32m[1mLinking CXX executable bin/ecl_detect_posix[0m
+[24.982s] [ 37%] Built target ecl_detect_endian
+[25.012s] [ 37%] Built target ecl_detect_posix
+[26.756s] [ 43%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[26.989s] [ 43%] Built target gtest_main
+[44.784s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[45.350s] [ 50%] Built target gtest
+[45.485s] [ 56%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_char_sign.dir/char_sign.cpp.o[0m
+[48.679s] [ 62%] [32m[1mLinking CXX executable ecl_test_char_sign[0m
+[49.279s] [ 62%] Built target ecl_test_char_sign
+[49.444s] [ 68%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_portable_types.dir/portable_types.cpp.o[0m
+[52.093s] [ 75%] [32m[1mLinking CXX executable ecl_test_portable_types[0m
+[52.893s] [ 75%] Built target ecl_test_portable_types
+[53.025s] [ 81%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_macros.dir/macros.cpp.o[0m
+[56.687s] [ 87%] [32m[1mLinking CXX executable ecl_test_macros[0m
+[57.346s] [ 87%] Built target ecl_test_macros
+[57.477s] [ 93%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_endianness.dir/endianness.cpp.o[0m
+[60.685s] [100%] [32m[1mLinking CXX executable ecl_test_endianness[0m
+[61.465s] [100%] Built target ecl_test_endianness
+[61.563s] Invoked command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_config -- -j4 -l4
+[61.595s] Invoking command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_config
+[61.655s] -- Install configuration: ""
+[61.658s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/share/ament_index/resource_index/package_run_dependencies/ecl_config
+[61.659s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/share/ament_index/resource_index/parent_prefix_path/ecl_config
+[61.661s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/share/ecl_config/environment/ament_prefix_path.sh
+[61.663s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/share/ecl_config/environment/ament_prefix_path.dsv
+[61.664s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/share/ecl_config/environment/path.sh
+[61.666s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/share/ecl_config/environment/path.dsv
+[61.667s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/share/ecl_config/local_setup.bash
+[61.669s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/share/ecl_config/local_setup.sh
+[61.670s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/share/ecl_config/local_setup.zsh
+[61.672s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/share/ecl_config/local_setup.dsv
+[61.674s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/share/ecl_config/package.dsv
+[61.674s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/share/ament_index/resource_index/packages/ecl_config
+[61.676s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/share/ecl_config/cmake/ecl_configExport.cmake
+[61.678s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/share/ecl_config/cmake/ament_cmake_export_targets-extras.cmake
+[61.680s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/share/ecl_config/cmake/ament_cmake_export_include_directories-extras.cmake
+[61.680s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/share/ecl_config/cmake/ecl_configConfig.cmake
+[61.682s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/share/ecl_config/cmake/ecl_configConfig-version.cmake
+[61.683s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/share/ecl_config/package.xml
+[61.686s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/include/ecl/config.hpp
+[61.712s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/include/ecl/config/ecl.hpp
+[61.713s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/include/ecl/config/char_sign.hpp
+[61.714s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/include/ecl/config/ecl_unknown.hpp
+[61.717s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/include/ecl/config/endianness.hpp
+[61.719s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/include/ecl/config/macros.hpp
+[61.719s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/include/ecl/config/portable_types.hpp
+[61.723s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/include/ecl/config/windows.hpp
+[61.730s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/bin/ecl_detect_endian
+[61.736s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/bin/ecl_detect_posix
+[61.766s] Invoked command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_config

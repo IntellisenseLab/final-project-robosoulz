@@ -1,0 +1,8 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/src/interfaces:msg/Position.msg",
+    "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/src/interfaces:srv/GetLastPositions.srv",
+    "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/src/interfaces:action/Navigation.action"
+  ]
+}

@@ -1,0 +1,140 @@
+[0.054s] Invoking command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_time': AMENT_PREFIX_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time_lite:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_exceptions:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_errors:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time_lite:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_exceptions:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_errors:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time_lite/lib:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_exceptions/lib:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/src/ThirdParty/ecl/ecl_core/ecl_time -DCMAKE_INSTALL_PREFIX=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time
+[0.352s] -- The C compiler identification is GNU 13.3.0
+[0.655s] -- The CXX compiler identification is GNU 13.3.0
+[0.741s] -- Detecting C compiler ABI info
+[1.300s] -- Detecting C compiler ABI info - done
+[1.329s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.329s] -- Detecting C compile features
+[1.331s] -- Detecting C compile features - done
+[1.384s] -- Detecting CXX compiler ABI info
+[1.908s] -- Detecting CXX compiler ABI info - done
+[1.947s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.948s] -- Detecting CXX compile features
+[1.951s] -- Detecting CXX compile features - done
+[1.971s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.671s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.383s] -- Found ecl_build: 1.0.3 (/opt/ros/jazzy/share/ecl_build/cmake)
+[3.399s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/ecl_build/cmake/cotire.cmake:45 (cmake_minimum_required):
+[3.402s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[3.402s]   CMake.
+[3.402s] 
+[3.403s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[3.403s]   CMake that the project does not need compatibility with older versions.
+[3.403s] Call Stack (most recent call first):
+[3.403s]   /opt/ros/jazzy/share/ecl_build/cmake/ecl_buildConfig.cmake:41 (include)
+[3.407s]   CMakeLists.txt:17 (find_package)
+[3.408s] 
+[3.408s] [0m
+[3.414s] -- Found ecl_config: 1.2.0 (/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/share/ecl_config/cmake)
+[3.423s] -- Found ecl_errors: 1.2.0 (/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_errors/share/ecl_errors/cmake)
+[3.441s] -- Found ecl_exceptions: 1.2.1 (/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_exceptions/share/ecl_exceptions/cmake)
+[3.457s] -- Found ecl_time_lite: 1.2.0 (/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time_lite/share/ecl_time_lite/cmake)
+[3.944s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.158s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.166s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.561s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.563s] -- Found Threads: TRUE  
+[4.672s] -- Configuring done (4.6s)
+[4.931s] -- Generating done (0.2s)
+[5.039s] -- Build files have been written to: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_time
+[5.102s] Invoked command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_time' returned '0': AMENT_PREFIX_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time_lite:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_exceptions:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_errors:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time_lite:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_exceptions:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_errors:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time_lite/lib:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_exceptions/lib:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/src/ThirdParty/ecl/ecl_core/ecl_time -DCMAKE_INSTALL_PREFIX=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time
+[5.104s] Invoking command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_time': AMENT_PREFIX_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time_lite:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_exceptions:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_errors:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time_lite:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_exceptions:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_errors:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time_lite/lib:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_exceptions/lib:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_time -- -j4 -l4
+[5.433s] [  2%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/cpuwatch_rt.cpp.o[0m
+[6.267s] [  5%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/frequency.cpp.o[0m
+[7.069s] [  8%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/sleep_win.cpp.o[0m
+[7.377s] [ 11%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/sleep_pos.cpp.o[0m
+[8.725s] [ 14%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/snooze_pos.cpp.o[0m
+[9.659s] [ 17%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/snooze_win.cpp.o[0m
+[9.939s] [ 20%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/stopwatch.cpp.o[0m
+[10.849s] [ 23%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/timestamp_base.cpp.o[0m
+[11.676s] [ 26%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/timestamp_pos.cpp.o[0m
+[12.754s] [ 29%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/timestamp_win.cpp.o[0m
+[12.861s] [ 32%] [32mBuilding CXX object src/lib/CMakeFiles/ecl_time.dir/time_data.cpp.o[0m
+[13.851s] [ 35%] [32m[1mLinking CXX shared library libecl_time.so[0m
+[14.393s] [ 35%] Built target ecl_time
+[14.504s] [ 38%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[30.974s] [ 41%] [32m[1mLinking CXX static library libgtest.a[0m
+[31.316s] [ 41%] Built target gtest
+[31.470s] [ 44%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_time_example_sleep.dir/sleep.cpp.o[0m
+[32.842s] [ 47%] [32m[1mLinking CXX executable demo_sleep[0m
+[33.331s] [ 47%] Built target ecl_time_example_sleep
+[33.461s] [ 50%] [32mBuilding CXX object src/examples/CMakeFiles/ecl_time_example_random_number_generator.dir/random_number_generator.cpp.o[0m
+[34.838s] [ 52%] [32m[1mLinking CXX executable demo_random_number_generator[0m
+[35.241s] [ 52%] Built target ecl_time_example_random_number_generator
+[35.404s] [ 55%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[37.910s] [ 58%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[38.054s] [ 58%] Built target gtest_main
+[38.269s] [ 61%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_cpuwatch_rt.dir/cpuwatch_rt.cpp.o[0m
+[41.647s] [ 64%] [32m[1mLinking CXX executable ecl_test_cpuwatch_rt[0m
+[42.274s] [ 64%] Built target ecl_test_cpuwatch_rt
+[42.429s] [ 67%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_snooze.dir/snooze.cpp.o[0m
+[45.877s] [ 70%] [32m[1mLinking CXX executable ecl_test_snooze[0m
+[46.563s] [ 70%] Built target ecl_test_snooze
+[46.755s] [ 73%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_timestamp.dir/timestamp.cpp.o[0m
+[51.520s] [ 76%] [32m[1mLinking CXX executable ecl_test_timestamp[0m
+[52.126s] [ 76%] Built target ecl_test_timestamp
+[52.185s] [ 79%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_time_data.dir/time_data.cpp.o[0m
+[55.577s] [ 82%] [32m[1mLinking CXX executable ecl_test_time_data[0m
+[56.308s] [ 82%] Built target ecl_test_time_data
+[56.445s] [ 85%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_stopwatch.dir/stopwatch.cpp.o[0m
+[59.588s] [ 88%] [32m[1mLinking CXX executable ecl_test_stopwatch[0m
+[60.231s] [ 88%] Built target ecl_test_stopwatch
+[60.372s] [ 91%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_sleep.dir/sleep.cpp.o[0m
+[63.596s] [ 94%] [32m[1mLinking CXX executable ecl_test_sleep[0m
+[64.313s] [ 94%] Built target ecl_test_sleep
+[64.427s] [ 97%] [32mBuilding CXX object src/test/CMakeFiles/ecl_test_frequency.dir/frequency.cpp.o[0m
+[67.636s] [100%] [32m[1mLinking CXX executable ecl_test_frequency[0m
+[68.121s] [100%] Built target ecl_test_frequency
+[68.179s] Invoked command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_time' returned '0': AMENT_PREFIX_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time_lite:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_exceptions:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_errors:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time_lite:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_exceptions:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_errors:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time_lite/lib:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_exceptions/lib:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --build /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_time -- -j4 -l4
+[68.183s] Invoking command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_time': AMENT_PREFIX_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time_lite:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_exceptions:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_errors:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time_lite:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_exceptions:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_errors:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time_lite/lib:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_exceptions/lib:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_time
+[68.258s] -- Install configuration: ""
+[68.260s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ecl_time/environment/library_path.sh
+[68.262s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ecl_time/environment/library_path.dsv
+[68.265s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ament_index/resource_index/package_run_dependencies/ecl_time
+[68.265s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ament_index/resource_index/parent_prefix_path/ecl_time
+[68.268s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ecl_time/environment/ament_prefix_path.sh
+[68.274s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ecl_time/environment/ament_prefix_path.dsv
+[68.274s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ecl_time/environment/path.sh
+[68.279s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ecl_time/environment/path.dsv
+[68.282s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ecl_time/local_setup.bash
+[68.283s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ecl_time/local_setup.sh
+[68.285s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ecl_time/local_setup.zsh
+[68.285s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ecl_time/local_setup.dsv
+[68.292s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ecl_time/package.dsv
+[68.304s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ament_index/resource_index/packages/ecl_time
+[68.318s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ecl_time/cmake/ecl_timeExport.cmake
+[68.318s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ecl_time/cmake/ecl_timeExport-noconfig.cmake
+[68.323s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ecl_time/cmake/ament_cmake_export_targets-extras.cmake
+[68.323s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ecl_time/cmake/ament_cmake_export_include_directories-extras.cmake
+[68.324s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ecl_time/cmake/ament_cmake_export_libraries-extras.cmake
+[68.325s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ecl_time/cmake/ament_cmake_export_dependencies-extras.cmake
+[68.326s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ecl_time/cmake/ecl_timeConfig.cmake
+[68.327s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ecl_time/cmake/ecl_timeConfig-version.cmake
+[68.328s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/share/ecl_time/package.xml
+[68.333s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/include/ecl/time.hpp
+[68.338s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/include/ecl/time/cpuwatch.hpp
+[68.343s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/include/ecl/time/cpuwatch_rt.hpp
+[68.351s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/include/ecl/time/duration.hpp
+[68.351s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/include/ecl/time/frequency.hpp
+[68.358s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/include/ecl/time/macros.hpp
+[68.359s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/include/ecl/time/random_number_generator.hpp
+[68.359s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/include/ecl/time/sleep.hpp
+[68.368s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/include/ecl/time/sleep_pos.hpp
+[68.368s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/include/ecl/time/sleep_win.hpp
+[68.389s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/include/ecl/time/snooze.hpp
+[68.398s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/include/ecl/time/snooze_pos.hpp
+[68.398s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/include/ecl/time/snooze_win.hpp
+[68.406s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/include/ecl/time/stopwatch.hpp
+[68.406s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/include/ecl/time/time_data.hpp
+[68.410s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/include/ecl/time/timestamp.hpp
+[68.410s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/include/ecl/time/timestamp_base.hpp
+[68.412s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/include/ecl/time/timestamp_pos.hpp
+[68.414s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/include/ecl/time/timestamp_win.hpp
+[68.430s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/lib/libecl_time.so.1.2.1
+[68.437s] -- Set non-toolchain portion of runtime path of "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/lib/libecl_time.so.1.2.1" to ""
+[68.441s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/lib/libecl_time.so
+[68.462s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/lib/ecl_time/demo_random_number_generator
+[68.462s] -- Set non-toolchain portion of runtime path of "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/lib/ecl_time/demo_random_number_generator" to ""
+[68.468s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/lib/ecl_time/demo_sleep
+[68.480s] -- Set non-toolchain portion of runtime path of "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time/lib/ecl_time/demo_sleep" to ""
+[68.496s] Invoked command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_time' returned '0': AMENT_PREFIX_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time_lite:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_exceptions:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_errors:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time_lite:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_exceptions:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_errors:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_time_lite/lib:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_exceptions/lib:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_errors/lib:${LD_LIBRARY_PATH} PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/ecl_config/bin:${PATH} /usr/bin/cmake --install /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_time

@@ -1,0 +1,4 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/kobuki_ros_node.dir/rclcpp_components/node_main_kobuki_ros_node.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/kobuki_ros.dir/src/kobuki_ros.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable kobuki_ros_node[0m
+[ 50%] Built target kobuki_ros_node

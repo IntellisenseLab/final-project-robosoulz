@@ -1,0 +1,11 @@
+/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki/CMakeFiles/uninstall.dir
+/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki/CMakeFiles/kobuki_uninstall.dir
+/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki/CMakeFiles/kobuki.dir
+/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki/CMakeFiles/fake_bumer_node.dir
+/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki/CMakeFiles/test.dir
+/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki/CMakeFiles/edit_cache.dir
+/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki/CMakeFiles/rebuild_cache.dir
+/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki/CMakeFiles/list_install_components.dir
+/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki/CMakeFiles/install.dir
+/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki/CMakeFiles/install/local.dir
+/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki/CMakeFiles/install/strip.dir

@@ -1,0 +1,24 @@
+[8.043s] Invoking command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/src/qbot_nav': AMENT_PREFIX_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/qbot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/qbot_nav/lib/python3.12/site-packages:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/qbot_nav build --build-base /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/qbot_nav/build install --record /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/qbot_nav/install.log --single-version-externally-managed install_data
+[9.816s] running egg_info
+[9.912s] writing ../../build/qbot_nav/qbot_nav.egg-info/PKG-INFO
+[9.934s] writing dependency_links to ../../build/qbot_nav/qbot_nav.egg-info/dependency_links.txt
+[9.987s] writing entry points to ../../build/qbot_nav/qbot_nav.egg-info/entry_points.txt
+[10.064s] writing requirements to ../../build/qbot_nav/qbot_nav.egg-info/requires.txt
+[10.185s] writing top-level names to ../../build/qbot_nav/qbot_nav.egg-info/top_level.txt
+[10.787s] reading manifest file '../../build/qbot_nav/qbot_nav.egg-info/SOURCES.txt'
+[10.791s] adding license file 'LICENSE'
+[10.792s] writing manifest file '../../build/qbot_nav/qbot_nav.egg-info/SOURCES.txt'
+[10.812s] running build
+[10.812s] running build_py
+[10.812s] running install
+[10.869s] running install_lib
+[11.110s] running install_data
+[11.114s] running install_egg_info
+[11.247s] removing '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/qbot_nav/lib/python3.12/site-packages/qbot_nav-0.0.0-py3.12.egg-info' (and everything under it)
+[11.269s] Copying ../../build/qbot_nav/qbot_nav.egg-info to /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/qbot_nav/lib/python3.12/site-packages/qbot_nav-0.0.0-py3.12.egg-info
+[11.288s] running install_scripts
+[13.011s] Installing navigation_server script to /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/qbot_nav/lib/qbot_nav
+[13.011s] Installing qbot_controller script to /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/qbot_nav/lib/qbot_nav
+[13.012s] Installing slam_pose_publisher script to /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/qbot_nav/lib/qbot_nav
+[13.015s] writing list of installed files to '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/qbot_nav/install.log'
+[13.133s] Invoked command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/src/qbot_nav' returned '0': AMENT_PREFIX_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/qbot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/qbot_nav/lib/python3.12/site-packages:/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/qbot_nav build --build-base /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/qbot_nav/build install --record /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/qbot_nav/install.log --single-version-externally-managed install_data

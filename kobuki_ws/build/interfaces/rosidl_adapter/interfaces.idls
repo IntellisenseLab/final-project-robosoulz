@@ -1,0 +1,3 @@
+/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/interfaces/rosidl_adapter/interfaces:msg/Position.idl
+/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/interfaces/rosidl_adapter/interfaces:srv/GetLastPositions.idl
+/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/interfaces/rosidl_adapter/interfaces:action/Navigation.idl
