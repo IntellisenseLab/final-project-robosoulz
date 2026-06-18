@@ -1,191 +1,195 @@
-# Autonomous Indoor Delivery Robot Using ROS-Based Navigation on Kobuki QBot
+# QBot Navigation System
 
-## CS3340: Robotics and Automation Final Project  
-**Department of Computer Science and Engineering**
-
----
-
-## 👥 Team: RoboSoulz
-
-| Name | Index Number |
-|------|-------------|
-| Birajith K. | 230091H |
-| Rafi M.A.A | 230505J |
-| Saran S. | 230582N |
+A ROS 2 Jazzy-based navigation and mapping system for the Kobuki robot using an LD19 LiDAR, SLAM, A* path planning, and a web-based React user interface.
 
 ---
 
-## 📌 Project Overview
+## Prerequisites
 
-This project focuses on the design and implementation of an **Autonomous Indoor Delivery Robot** using the **Kobuki QBot platform** integrated with a **Kinect RGB-D sensor**.
-
-The robot is designed to navigate autonomously within an indoor environment and deliver items between predefined locations. The system integrates core robotics components—**perception, planning, and control**—within a **ROS 2-based architecture**.
-
----
-
-## 🎯 Objectives
-
-- Generate an **occupancy grid map** using depth sensor data  
-- Implement **path planning algorithms** (A*, Dijkstra)  
-- Enable **autonomous navigation** between predefined delivery points  
-- Integrate perception, planning, and control modules  
-- Demonstrate a complete indoor delivery task  
+* Ubuntu on Raspberry Pi
+* ROS 2 Jazzy
+* Kobuki Base
+* LD19 LiDAR
+* Built workspace (`kobuki_ws`)
+* Built React frontend (`build` directory)
 
 ---
 
-## 🏗️ System Architecture
+## Starting the System
 
-The system is divided into the following modules:
+The system requires three separate terminals.
 
-### 🔹 Perception Module
-- Acquire RGB and depth data from Kinect sensor  
-- Generate occupancy grid map  
-- Detect obstacles in the environment  
+### Terminal 1: Launch the Hardware Stack
 
-### 🔹 Planning Module
-- Select target delivery locations  
-- Generate collision-free paths using planning algorithms  
-- Handle path updates if required  
+This command:
 
-### 🔹 Control Module
-- Convert planned paths into velocity commands  
-- Control robot movement using ROS `cmd_vel`  
-- Maintain stable trajectory tracking  
+* Connects to the Kobuki base
+* Starts the LD19 LiDAR
+* Launches the SLAM mapping system
+* Starts the A* Navigation Server
 
-### 🔹 ROS Integration
-- Implement each module as ROS 2 nodes  
-- Communicate via ROS topics  
-- Visualize system using RViz  
+```bash
+cd ~/Desktop/ROS2_Final_Project/kobuki_ws
+
+source /opt/ros/jazzy/setup.bash
+source install/setup.bash
+
+ros2 launch qbot_nav qbot_hardware.launch.py
+```
 
 ---
 
-## 📁 Repository Structure
+### Terminal 2: Start the WebSocket Bridge
+
+This allows communication between the React web interface and ROS 2 using Rosbridge.
+
+```bash
+cd ~/Desktop/ROS2_Final_Project/kobuki_ws
+
+source /opt/ros/jazzy/setup.bash
+source install/setup.bash
+
+ros2 run rosbridge_server rosbridge_websocket --ros-args -p port:=9090
+```
+
+---
+
+### Terminal 3: Serve the React User Interface
+
+This hosts the compiled React application using Python's lightweight HTTP server.
+
+```bash
+cd ~/Desktop/ROS2_Final_Project/build
+
+python3 -m http.server 8000
+```
+
+---
+
+## Accessing the Web Interface
+
+After all services are running, open a web browser on a device connected to the same Wi-Fi network as the Raspberry Pi.
+
+Navigate to:
 
 ```text
-final-project-robosoulz/
-├── docs/
-│ ├── images/
-│ ├── logs/
-│ │ └── week08/
-│ │     └── local_setup_verification.txt
-│   ├── setup_notes/
-│   │   ├── week08/
-│   │       ├── week08_setup.md
-│   │       └── week08_node_summary.md
-│   │   ├── week09/
-│ ├── weekly_reports/
-│ │     └── week08_report.md
-│
-├── src/
-│ ├── qbot_navigation/     # Main project package (perception, planning, control)
-│ ├── qbot_description/    # Robot model and visualization files
-│ ├── interfaces/          # Custom ROS interfaces (if used)
-│
-├── README.md
+http://<RASPBERRY_PI_IP>:8000
+```
+
+Example:
+
+```text
+http://192.168.8.154:8000
 ```
 
 ---
 
-## ⚙️ Technologies Used
+## Finding the Raspberry Pi IP Address
 
-- **ROS 2 (Jazzy)**
-- **Python (ROS Nodes)**
-- **Kobuki QBot**
-- **Kinect RGB-D Sensor**
-- **SLAM / Mapping Tools**
-- **RViz for visualization**
-
----
-
-## 🚀 Setup Instructions
-
-### 1. Clone the Repository
+Run:
 
 ```bash
-git clone <your-repo-link>
-cd final-project-robosoulz
+hostname -I
 ```
 
-### 2. Build
+Example output:
+
+```text
+192.168.8.154
+```
+
+Use the displayed IP address in your browser:
+
+```text
+http://192.168.8.154:8000
+```
+
+---
+
+## System Architecture
+
+```text
+React Web UI
+      │
+      ▼
+Rosbridge WebSocket (Port 9090)
+      │
+      ▼
+ROS 2 Jazzy
+      │
+ ┌────┴────┐
+ │         │
+ ▼         ▼
+SLAM     A* Navigation
+ │
+ ▼
+LD19 LiDAR
+ │
+ ▼
+Kobuki Base
+```
+
+---
+
+## Troubleshooting
+
+### Web UI Cannot Connect
+
+Verify the Rosbridge server is running:
 
 ```bash
-colcon build
+ros2 node list
 ```
 
-### 3. Source
+You should see:
+
+```text
+/rosbridge_websocket
+```
+
+---
+
+### Cannot Access the Web Interface
+
+Check that the Python server is running:
 
 ```bash
-source install/setup.bash
+ps aux | grep http.server
 ```
 
-### 4. Run
+Verify the Raspberry Pi IP address:
 
 ```bash
-ros2 run qbot_navigation odom_node
+hostname -I
+```
+
+Ensure the client device is connected to the same Wi-Fi network.
+
+---
+
+### Verify ROS 2 Nodes
+
+```bash
+ros2 node list
 ```
 
 ---
 
-## 📅 Project Timeline
+## Ports Used
 
-| Week | Task |
-|------|------|
-| Week 08 | Setup and ROS environment verification |
-| Week 09 | Perception (Kinect + mapping) |
-| Week 10 | Path planning |
-| Week 11 | Motion control |
-| Week 12 | System integration |
-| Week 13 | Testing and documentation |
+| Service             | Port |
+| ------------------- | ---- |
+| React Web UI        | 8000 |
+| Rosbridge WebSocket | 9090 |
 
 ---
 
-## 🧪 Week 08 Progress
+## Shutdown
 
-### ✅ Completed
-- Repository initialized and structured  
-- ROS 2 environment verified (Jazzy)  
-- Workspace successfully built using `colcon build`  
-- Integrated packages from previous labs  
-- Renamed package to `qbot_navigation`  
-- Verified package detection in ROS  
-- Verified executables:
-  - mapper_node
-  - navigation_server
-  - odom_node
-  - qbot_controller
-- Successfully launched ROS nodes locally  
-- Verified node registration (`/map_node`)
+To stop the system safely, press:
 
-### ❌ Pending
-- Raspberry Pi setup  
-- QBot hardware connection  
-- Kinect sensor integration  
-- Hardware communication testing  
+```bash
+Ctrl + C
+```
 
----
-
-## 📚 References
-
-- Kobuki QBot Documentation  
-  https://kobuki.readthedocs.io/en/devel/index.html  
-- Kobuki Python Interface  
-  https://github.com/IntellisenseLab/kobuki-python  
-
-- ROS 2 Navigation Stack (Nav2)  
-  https://docs.nav2.org/  
-
-- Thrun, S., Burgard, W., & Fox, D. (2005)  
-  *Probabilistic Robotics*, MIT Press  
-
----
-
-## 📌 Notes
-This project builds upon ROS-based lab implementations.
-Current progress includes software setup and validation on a local machine.
-Hardware integration will be performed in subsequent phases.
-
----
-
-## Project Status
-
-🟡 **In Progress — Week 08 Completed (Software Setup Stage)**
+in each terminal window.

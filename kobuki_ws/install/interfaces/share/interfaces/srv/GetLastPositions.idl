@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/GetLastPositions.srv
+// generated code does not contain a copyright notice
+
+#include "interfaces/msg/Position.idl"
+
+module interfaces {
+  module srv {
+    struct GetLastPositions_Request {
+      int32 num_positions;
+    };
+    struct GetLastPositions_Response {
+      sequence<interfaces::msg::Position> positions;
+    };
+  };
+};

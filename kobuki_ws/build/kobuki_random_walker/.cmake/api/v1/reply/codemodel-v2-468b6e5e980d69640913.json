@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-898ee29539074732ebcd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "kobuki_random_walker",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_random_walker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_random_walker-fd539fc204f2dd3ad5fa.json",
+					"name" : "kobuki_random_walker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_random_walker_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_random_walker_node-bf7aeb25b32e5d6ea5b2.json",
+					"name" : "kobuki_random_walker_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kobuki_random_walker_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kobuki_random_walker_uninstall-e61e2b135c49ac3e5109.json",
+					"name" : "kobuki_random_walker_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-43f7be071cfbbe5e355e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_random_walker",
+		"source" : "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/src/ThirdParty/kobuki_ros/kobuki_random_walker"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

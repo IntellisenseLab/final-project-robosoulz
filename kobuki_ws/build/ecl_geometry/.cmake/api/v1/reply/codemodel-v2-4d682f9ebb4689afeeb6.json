@@ -1,0 +1,348 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ea0162c279565d14d081.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						17
+					]
+				},
+				{
+					"build" : "include",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-include-7ead17b99bffc88b66bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "include"
+				},
+				{
+					"build" : "include/ecl",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-include.ecl-2f1500ef55965a2a9b76.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "include/ecl"
+				},
+				{
+					"build" : "include/ecl/geometry",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-include.ecl.geometry-ec59c7fbf772ec76798c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 0,
+					"source" : "include/ecl/geometry"
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/lib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.lib-7451d5d70d99fddc7542.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "src/lib",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/test",
+					"childIndexes" : 
+					[
+						7
+					],
+					"jsonFile" : "directory-src.test-3607701395add829ebf1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "src/test",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-0908a8c91ddba5d6c989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/jazzy/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "ecl_geometry",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "ecl_geometry::@dc1a1c76835bc3d8b019",
+					"jsonFile" : "target-ecl_geometry-69a8f189df4f1a9d628d.json",
+					"name" : "ecl_geometry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ecl_geometry_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ecl_geometry_uninstall-f6fcdd7f831dff78afa9.json",
+					"name" : "ecl_geometry_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_angles::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_angles-2c92046ec78a38be29ce.json",
+					"name" : "ecl_test_angles",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_cartesian_points::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_cartesian_points-32ee19be06b435096118.json",
+					"name" : "ecl_test_cartesian_points",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_cubic_splines::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_cubic_splines-570d8a8e1c8dd505a631.json",
+					"name" : "ecl_test_cubic_splines",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_homogeneous_points::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_homogeneous_points-c35d6a2f756cc293c085.json",
+					"name" : "ecl_test_homogeneous_points",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_legacy_pose2d::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_legacy_pose2d-249246a6b7d905dd7d0f.json",
+					"name" : "ecl_test_legacy_pose2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_legacy_pose3d::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_legacy_pose3d-03486f5aa0ffeed08ab2.json",
+					"name" : "ecl_test_legacy_pose3d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_linear_segment::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_linear_segment-4b69dbd11b1f8b683b6f.json",
+					"name" : "ecl_test_linear_segment",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_odometry_helper::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_odometry_helper-41f1da1fc743dc9ea771.json",
+					"name" : "ecl_test_odometry_helper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_polynomials::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_polynomials-6aa381b1e81aea1951d4.json",
+					"name" : "ecl_test_polynomials",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_pose2d::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_pose2d-9cffa73ed55568cf4f04.json",
+					"name" : "ecl_test_pose2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_smooth_linear_splines::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_smooth_linear_splines-ebd7d32e5e6471db8182.json",
+					"name" : "ecl_test_smooth_linear_splines",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_tension_function::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_tension_function-007250bca1da55fd0cc8.json",
+					"name" : "ecl_test_tension_function",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ecl_test_tension_splines::@b7fcbc08bf8df37e9c1b",
+					"jsonFile" : "target-ecl_test_tension_splines-6f3dcf426b5cc4cfca5d.json",
+					"name" : "ecl_test_tension_splines",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-0a0f519ff6ef9970a302.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-ee533a3afa140accd249.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-7056c63792f7d5908039.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/ecl_geometry",
+		"source" : "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/src/ThirdParty/ecl/ecl_core/ecl_geometry"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

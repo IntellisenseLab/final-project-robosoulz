@@ -1,0 +1,321 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ec4e87886271e0c9425b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25
+					]
+				},
+				{
+					"build" : "openni2_camera__py",
+					"jsonFile" : "directory-openni2_camera__py-fc4890c270f4102a65c0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/openni2_camera/openni2_camera__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "openni2_camera__rs",
+					"jsonFile" : "directory-openni2_camera__rs-a15885ac0884ab752bef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/openni2_camera/openni2_camera__rs",
+					"targetIndexes" : 
+					[
+						15
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "openni2_camera",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_openni2_camera_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_openni2_camera_egg-c782ee36aac52ed41acc.json",
+					"name" : "ament_cmake_python_build_openni2_camera_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_openni2_camera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_openni2_camera-fd5d5dab6a3fcc1a8366.json",
+					"name" : "ament_cmake_python_copy_openni2_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "list_devices::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-list_devices-f73d95b77870983ff9bc.json",
+					"name" : "list_devices",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openni2_camera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openni2_camera-b9faa5edd66029e9285c.json",
+					"name" : "openni2_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openni2_camera__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openni2_camera__cpp-e354424afc7f8dafb85f.json",
+					"name" : "openni2_camera__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "openni2_camera__py::@756275371ec5e5d3fb68",
+					"jsonFile" : "target-openni2_camera__py-01b35c1c983dbe88c5da.json",
+					"name" : "openni2_camera__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openni2_camera__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openni2_camera__rosidl_generator_c-50dfb71d960cfa6a895e.json",
+					"name" : "openni2_camera__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openni2_camera__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openni2_camera__rosidl_generator_py-a2b2bdb5fb66e6012abc.json",
+					"name" : "openni2_camera__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openni2_camera__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openni2_camera__rosidl_generator_type_description-6fb2e64edc3985179c98.json",
+					"name" : "openni2_camera__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openni2_camera__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openni2_camera__rosidl_typesupport_c-529dce759c09a5c5d648.json",
+					"name" : "openni2_camera__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openni2_camera__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openni2_camera__rosidl_typesupport_cpp-014ab18ab715c88ddb90.json",
+					"name" : "openni2_camera__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openni2_camera__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openni2_camera__rosidl_typesupport_fastrtps_c-a9ebb3a5bde910eda7f1.json",
+					"name" : "openni2_camera__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openni2_camera__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openni2_camera__rosidl_typesupport_fastrtps_cpp-2baf04eed21721bfab3f.json",
+					"name" : "openni2_camera__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openni2_camera__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openni2_camera__rosidl_typesupport_introspection_c-a8134f6fc94357936007.json",
+					"name" : "openni2_camera__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openni2_camera__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openni2_camera__rosidl_typesupport_introspection_cpp-3b819b912e90a275bb2e.json",
+					"name" : "openni2_camera__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "openni2_camera__rs::@594971530f2c49e88053",
+					"jsonFile" : "target-openni2_camera__rs-4fbff553979e157c9160.json",
+					"name" : "openni2_camera__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openni2_camera_driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openni2_camera_driver-928917c7a4763f89270e.json",
+					"name" : "openni2_camera_driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openni2_camera_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openni2_camera_lib-0974d6fd12345b03ea7d.json",
+					"name" : "openni2_camera_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openni2_camera_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openni2_camera_s__rosidl_typesupport_c-ce329c9403a5c06859ff.json",
+					"name" : "openni2_camera_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openni2_camera_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openni2_camera_s__rosidl_typesupport_fastrtps_c-2f1e7af1148dec180e84.json",
+					"name" : "openni2_camera_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openni2_camera_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openni2_camera_s__rosidl_typesupport_introspection_c-4ed527f4fb43fd4018f0.json",
+					"name" : "openni2_camera_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openni2_camera_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openni2_camera_uninstall-01136a15c381fb9912e9.json",
+					"name" : "openni2_camera_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "openni2_wrapper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-openni2_wrapper-7b4f52550a6dda7ed157.json",
+					"name" : "openni2_wrapper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_wrapper::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_wrapper-a2fd3c3ebd38ed4e9a9f.json",
+					"name" : "test_wrapper",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ab7d76d297aa79d2261d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "usb_reset::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-usb_reset-405b316d70f50c2b2e47.json",
+					"name" : "usb_reset",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/openni2_camera",
+		"source" : "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/src/ThirdParty/openni2_camera/openni2_camera"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

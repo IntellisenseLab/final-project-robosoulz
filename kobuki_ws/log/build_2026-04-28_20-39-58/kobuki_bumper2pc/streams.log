@@ -1,0 +1,68 @@
+[0.068s] Invoking command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_bumper2pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/src/ThirdParty/kobuki_ros/kobuki_bumper2pc -DCMAKE_INSTALL_PREFIX=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc
+[0.545s] -- The C compiler identification is GNU 13.3.0
+[0.910s] -- The CXX compiler identification is GNU 13.3.0
+[1.025s] -- Detecting C compiler ABI info
+[1.568s] -- Detecting C compiler ABI info - done
+[1.609s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.610s] -- Detecting C compile features
+[1.615s] -- Detecting C compile features - done
+[1.643s] -- Detecting CXX compiler ABI info
+[2.207s] -- Detecting CXX compiler ABI info - done
+[2.252s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.253s] -- Detecting CXX compile features
+[2.258s] -- Detecting CXX compile features - done
+[2.281s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.147s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.834s] -- Found kobuki_ros_interfaces: 1.0.0 (/opt/ros/jazzy/share/kobuki_ros_interfaces/cmake)
+[4.099s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.159s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.234s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.359s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.030s] -- Found rcl_interfaces: 2.0.3 (/opt/ros/jazzy/share/rcl_interfaces/cmake)
+[5.160s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[5.457s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.522s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[6.263s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[6.479s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[6.583s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.372s] -- Found rclcpp_components: 28.1.18 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[7.849s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[9.045s] -- Configuring done (8.9s)
+[9.203s] -- Generating done (0.1s)
+[9.289s] -- Build files have been written to: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_bumper2pc
+[9.556s] Invoked command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_bumper2pc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/src/ThirdParty/kobuki_ros/kobuki_bumper2pc -DCMAKE_INSTALL_PREFIX=/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc
+[9.557s] Invoking command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_bumper2pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_bumper2pc -- -j4 -l4
+[9.982s] [ 25%] [32mBuilding CXX object CMakeFiles/kobuki_bumper2pc_node.dir/rclcpp_components/node_main_kobuki_bumper2pc_node.cpp.o[0m
+[10.044s] [ 50%] [32mBuilding CXX object CMakeFiles/kobuki_bumper2pc.dir/src/kobuki_bumper2pc.cpp.o[0m
+[28.445s] [ 75%] [32m[1mLinking CXX executable kobuki_bumper2pc_node[0m
+[29.897s] [ 75%] Built target kobuki_bumper2pc_node
+[69.471s] [100%] [32m[1mLinking CXX shared library libkobuki_bumper2pc.so[0m
+[73.275s] [100%] Built target kobuki_bumper2pc
+[73.393s] Invoked command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_bumper2pc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_bumper2pc -- -j4 -l4
+[73.398s] Invoking command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_bumper2pc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_bumper2pc
+[73.457s] -- Install configuration: ""
+[73.465s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/lib/kobuki_bumper2pc/kobuki_bumper2pc_node
+[73.492s] -- Set non-toolchain portion of runtime path of "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/lib/kobuki_bumper2pc/kobuki_bumper2pc_node" to ""
+[73.500s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/lib/libkobuki_bumper2pc.so
+[73.576s] -- Set non-toolchain portion of runtime path of "/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/lib/libkobuki_bumper2pc.so" to ""
+[73.576s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/include/kobuki_bumper2pc
+[73.579s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/include/kobuki_bumper2pc/kobuki_bumper2pc.hpp
+[73.580s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/launch
+[73.584s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/launch/kobuki_bumper2pc-launch.py
+[73.591s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/package_run_dependencies/kobuki_bumper2pc
+[73.597s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/parent_prefix_path/kobuki_bumper2pc
+[73.602s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/ament_prefix_path.sh
+[73.603s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/ament_prefix_path.dsv
+[73.607s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/path.sh
+[73.607s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/environment/path.dsv
+[73.612s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.bash
+[73.613s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.sh
+[73.615s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.zsh
+[73.618s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/local_setup.dsv
+[73.625s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/package.dsv
+[73.625s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/packages/kobuki_bumper2pc
+[73.629s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/share/ament_index/resource_index/rclcpp_components/kobuki_bumper2pc
+[73.634s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig.cmake
+[73.641s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig-version.cmake
+[73.643s] -- Installing: /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/install/kobuki_bumper2pc/share/kobuki_bumper2pc/package.xml
+[73.661s] Invoked command in '/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_bumper2pc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/kobuki_bumper2pc
