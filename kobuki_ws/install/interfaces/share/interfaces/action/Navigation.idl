@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from interfaces/action/Navigation.action
+// generated code does not contain a copyright notice
+
+#include "interfaces/msg/Position.idl"
+
+module interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct Navigation_Goal {
+      interfaces::msg::Position end_position;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct Navigation_Result {
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct Navigation_Feedback {
+      float direction;
+    };
+  };
+};

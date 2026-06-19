@@ -1,0 +1,4 @@
+[console_scripts]
+navigation_server = qbot_nav.navigation_server:main
+qbot_controller = qbot_nav.qbot_controller:main
+slam_pose_publisher = qbot_nav.slam_pose_publisher:main
