@@ -1,9 +1,0 @@
-/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:msg/DeviceInfo.idl
-/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:msg/Extrinsics.idl
-/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:msg/Metadata.idl
-/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetDeviceInfo.idl
-/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetCameraInfo.idl
-/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetCameraParams.idl
-/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetInt32.idl
-/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/GetString.idl
-/home/abdulrafi/Desktop/ROS2_Final_Project/kobuki_ws/build/astra_camera_msgs/rosidl_adapter/astra_camera_msgs:srv/SetInt32.idl
